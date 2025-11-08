@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/parsa/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/parsa/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "//home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/parsa/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/parsa/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "//home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

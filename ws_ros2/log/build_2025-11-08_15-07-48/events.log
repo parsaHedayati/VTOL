@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000205] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000239] (custom_vtol_plugin) JobQueued: {'identifier': 'custom_vtol_plugin', 'dependencies': OrderedDict()}
+[0.000267] (custom_vtol_plugin) JobStarted: {'identifier': 'custom_vtol_plugin'}
+[0.011768] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'cmake'}
+[0.011833] (custom_vtol_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/parsa/ws_ros2/src/custom_vtol_plugin', '-DCMAKE_INSTALL_PREFIX=/home/parsa/ws_ros2/install/custom_vtol_plugin'], 'cwd': '/home/parsa/ws_ros2/build/custom_vtol_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'parsa'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parsa'), ('OLDPWD', '/home/parsa/ws_ros2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '3156'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3307'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3e9e1ec406bfe6f2814b498690ee91f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parsa/ros2_urdf_ws/install://home/parsa/ros2_urdf_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parsa'), ('JOURNAL_STREAM', '8:23036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parsa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/parsa/.local/bin:/opt/ros/humble/bin:/home/parsa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3307,unix/ubuntu:/tmp/.ICE-unix/3307'), ('INVOCATION_ID', 'b065d74d85464acdab36f32f9f601683'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('TILIX_ID', 'd88c2aa7-97ba-4f07-b711-47077874b28e'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OTIFF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/parsa/ros2_urdf_ws/install/my_robot_bringup:/home/parsa/ros2_urdf_ws/install/my_robot_description:/home/parsa/ros2_urdf_ws/install/inverse_kinematics://home/parsa/ros2_urdf_ws/install/my_robot_bringup://home/parsa/ros2_urdf_ws/install/my_robot_description://home/parsa/ros2_urdf_ws/install/inverse_kinematics:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parsa/ws_ros2/build/custom_vtol_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('IGNITION_CMAKE_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/cmake'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a3e9e1ec406bfe6f2814b498690ee91f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages://home/parsa/ros2_urdf_ws/install/inverse_kinematics/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parsa/ros2_urdf_ws/install/my_robot_bringup:/home/parsa/ros2_urdf_ws/install/my_robot_description://home/parsa/ros2_urdf_ws/install/my_robot_bringup://home/parsa/ros2_urdf_ws/install/my_robot_description:/home/parsa/ros2_urdf_ws/install/inverse_kinematics://home/parsa/ros2_urdf_ws/install/inverse_kinematics:/opt/ros/humble')]), 'shell': False}
+[0.096069] (custom_vtol_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099359] (-) TimerEvent: {}
+[0.176924] (custom_vtol_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186350] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199947] (-) TimerEvent: {}
+[0.300426] (-) TimerEvent: {}
+[0.308442] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.321420] (custom_vtol_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.321807] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322410] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326751] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400581] (-) TimerEvent: {}
+[0.463583] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.473577] (custom_vtol_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.473997] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.474835] (custom_vtol_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.478000] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.501508] (-) TimerEvent: {}
+[0.601737] (-) TimerEvent: {}
+[0.702086] (-) TimerEvent: {}
+[0.802840] (-) TimerEvent: {}
+[0.903660] (-) TimerEvent: {}
+[1.004387] (-) TimerEvent: {}
+[1.021955] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.104853] (-) TimerEvent: {}
+[1.151724] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.205336] (-) TimerEvent: {}
+[1.216686] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.223098] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.236407] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.253430] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.278251] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305821] (-) TimerEvent: {}
+[1.344560] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.348227] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.405961] (-) TimerEvent: {}
+[1.470992] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.507269] (-) TimerEvent: {}
+[1.517427] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.587446] (custom_vtol_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.599099] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.607842] (-) TimerEvent: {}
+[1.694073] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.694742] (custom_vtol_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.709135] (-) TimerEvent: {}
+[1.803847] (custom_vtol_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.805401] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.809217] (-) TimerEvent: {}
+[1.888906] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.902545] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.904070] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.909686] (-) TimerEvent: {}
+[1.920438] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[2.009955] (-) TimerEvent: {}
+[2.079439] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[2.110643] (-) TimerEvent: {}
+[2.143540] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[2.169555] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.210985] (-) TimerEvent: {}
+[2.211236] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.231272] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.237778] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.245841] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.247822] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.248462] (custom_vtol_plugin) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.259550] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.280418] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.311133] (-) TimerEvent: {}
+[2.332468] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.344482] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.361450] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.368143] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.368451] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.378429] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.378610] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.385304] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.385930] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.393633] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.394516] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.402506] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.402686] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.412926] (-) TimerEvent: {}
+[2.413253] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.513105] (-) TimerEvent: {}
+[2.603008] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.606049] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.608660] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.613244] (-) TimerEvent: {}
+[2.637240] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.662173] (custom_vtol_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.670180] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.688620] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.713417] (-) TimerEvent: {}
+[2.748493] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.756306] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.779269] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.813580] (-) TimerEvent: {}
+[2.827666] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.831411] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.832385] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.866530] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.872993] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.894834] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.913971] (-) TimerEvent: {}
+[2.944418] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.947790] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.948643] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.949205] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.951527] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.954988] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.973761] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.973963] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.978511] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.978727] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.978820] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.982412] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.983135] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.014220] (-) TimerEvent: {}
+[3.102750] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[3.114598] (-) TimerEvent: {}
+[3.125973] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.152971] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[3.209411] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.215333] (-) TimerEvent: {}
+[3.217404] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.234743] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.284514] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.284753] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.285442] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.286449] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.290702] (custom_vtol_plugin) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.291211] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[3.308187] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[3.315746] (-) TimerEvent: {}
+[3.354440] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[3.354628] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[3.354743] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.354836] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.369597] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.370371] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-gazebo6 -- found version 6.17.0\n'}
+[3.371113] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gazebo6\n'}
+[3.374029] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for sdformat12 -- found version 12.8.0\n'}
+[3.374862] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of sdformat12\n'}
+[3.385440] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.388572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.389389] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[3.395572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[3.395890] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[3.396031] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[3.398898] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[3.399718] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[3.400421] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[3.403390] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[3.404140] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[3.407710] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[3.408369] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[3.416070] (-) TimerEvent: {}
+[3.435972] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[3.453821] (custom_vtol_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.460858] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.478899] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[3.518313] (-) TimerEvent: {}
+[3.550126] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[3.554428] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[3.554626] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[3.554768] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[3.554858] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[3.558092] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[3.558366] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[3.588442] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[3.589836] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.601386] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [log]\n'}
+[3.604275] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-log -- found version 11.4.1\n'}
+[3.605056] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-log\n'}
+[3.605776] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-transport11> component [parameters]\n'}
+[3.608592] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-transport11-parameters -- found version 11.4.1\n'}
+[3.609303] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11-parameters\n'}
+[3.610749] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[3.611537] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[3.612205] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[3.612462] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.612572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.618528] (-) TimerEvent: {}
+[3.625624] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[3.628718] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[3.629621] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[3.630277] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[3.633135] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[3.633896] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[3.634474] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.635195] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [av]\n'}
+[3.638236] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for ignition-common4-av -- found version 4.7.0\n'}
+[3.639225] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-av\n'}
+[3.646772] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[3.664425] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[3.706760] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[3.713646] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[3.719284] (-) TimerEvent: {}
+[3.730544] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[3.783445] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[3.788599] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[3.805487] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[3.819787] (-) TimerEvent: {}
+[3.852436] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[3.860005] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[3.876874] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[3.920178] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[3.920360] (-) TimerEvent: {}
+[3.927107] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[3.943943] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[3.989045] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[3.992880] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.022381] (-) TimerEvent: {}
+[4.123050] (-) TimerEvent: {}
+[4.224647] (-) TimerEvent: {}
+[4.325110] (-) TimerEvent: {}
+[4.425691] (-) TimerEvent: {}
+[4.441368] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.526365] (-) TimerEvent: {}
+[4.627490] (-) TimerEvent: {}
+[4.728288] (-) TimerEvent: {}
+[4.829880] (-) TimerEvent: {}
+[4.930572] (-) TimerEvent: {}
+[5.031604] (-) TimerEvent: {}
+[5.059688] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.133135] (-) TimerEvent: {}
+[5.233652] (-) TimerEvent: {}
+[5.287397] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.321464] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.324012] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.334115] (-) TimerEvent: {}
+[5.365302] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.366497] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.366638] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.366739] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.405374] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.434642] (-) TimerEvent: {}
+[5.508815] (custom_vtol_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.521011] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:34 (add_library):\n'}
+[5.521226] (custom_vtol_plugin) StderrLine: {'line': b'  Target "motor_controller_plugin" links to target\n'}
+[5.521416] (custom_vtol_plugin) StderrLine: {'line': b'  "ignition-gazebo6::ignition-gazebo6" but the target was not found.  Perhaps\n'}
+[5.521541] (custom_vtol_plugin) StderrLine: {'line': b'  a find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[5.521650] (custom_vtol_plugin) StderrLine: {'line': b'  is missing?\n'}
+[5.521759] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[5.521838] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[0m\n'}
+[5.537367] (-) TimerEvent: {}
+[5.572800] (custom_vtol_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[5.576772] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[5.597001] (custom_vtol_plugin) CommandEnded: {'returncode': 1}
+[5.628061] (custom_vtol_plugin) JobEnded: {'identifier': 'custom_vtol_plugin', 'rc': 1}
+[5.645843] (-) EventReactorShutdown: {}

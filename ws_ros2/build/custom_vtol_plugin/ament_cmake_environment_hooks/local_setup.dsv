@@ -1,0 +1,4 @@
+source;share/custom_vtol_plugin/environment/ament_prefix_path.sh
+source;share/custom_vtol_plugin/environment/library_path.sh
+source;share/custom_vtol_plugin/environment/path.sh
+source;share/custom_vtol_plugin/environment/pythonpath.sh

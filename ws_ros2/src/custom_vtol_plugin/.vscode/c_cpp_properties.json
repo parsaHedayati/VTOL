@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/parsa/ws_ros2/install/px4_ros_com/include/**",
+        "/home/parsa/ws_ros2/install/px4_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/parsa/ws_ros2/src/custom_vtol_plugin/include/**",
+        "/home/parsa/ws_ros2/src/px4_ros_com/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

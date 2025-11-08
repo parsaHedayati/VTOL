@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_vtol_plugin",
+  "non_idl_tuples": [
+    "/home/parsa/ws_ros2/src/custom_vtol_plugin:msg/MotorCommands.msg"
+  ]
+}

@@ -1,0 +1,195 @@
+[0.014s] Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/ros2_urdf_ws/install/inverse_kinematics://home/parsa/ros2_urdf_ws/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /home/parsa/ws_ros2/src/custom_vtol_plugin -DCMAKE_INSTALL_PREFIX=/home/parsa/ws_ros2/install/custom_vtol_plugin
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.186s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.478s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.022s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.152s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.217s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.223s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.236s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.348s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.471s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.517s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.599s] -- Looking for pthread.h
+[1.694s] -- Looking for pthread.h - found
+[1.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.805s] -- Found Threads: TRUE  
+[1.889s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.902s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.904s] -- Checking for module 'bullet>=2.82'
+[1.920s] --   Found bullet, version 3.05
+[2.079s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.143s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.169s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.211s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.231s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.238s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.246s] -- Searching for dependencies of ignition-math6
+[2.248s] -- Looking for OGRE...
+[2.248s] -- OGRE_PREFIX_WATCH changed.
+[2.259s] -- Checking for module 'OGRE'
+[2.280s] --   Found OGRE, version 1.9.0
+[2.332s] -- Found Ogre Ghadamon (1.9.0)
+[2.344s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.361s] -- Looking for OGRE_Paging...
+[2.368s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.368s] -- Looking for OGRE_Terrain...
+[2.378s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.378s] -- Looking for OGRE_Property...
+[2.385s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.386s] -- Looking for OGRE_RTShaderSystem...
+[2.394s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.394s] -- Looking for OGRE_Volume...
+[2.402s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.402s] -- Looking for OGRE_Overlay...
+[2.413s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.603s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.606s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.608s] -- Searching for dependencies of ignition-transport8
+[2.637s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.662s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.670s] -- Checking for module 'libzmq >= 4'
+[2.689s] --   Found libzmq , version 4.3.4
+[2.748s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.756s] -- Checking for module 'uuid'
+[2.779s] --   Found uuid, version 2.37.2
+[2.828s] -- Found UUID: TRUE  
+[2.831s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.832s] -- Searching for dependencies of ignition-msgs5
+[2.866s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.873s] -- Checking for module 'tinyxml2'
+[2.895s] --   Found tinyxml2, version 9.0.0
+[2.944s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.948s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.948s] -- Searching for dependencies of ignition-common3
+[2.949s] -- Looking for dlfcn.h - found
+[2.951s] -- Looking for libdl - found
+[2.955s] -- Found DL: TRUE  
+[2.974s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.974s] -- Searching for <ignition-common3> component [graphics]
+[2.978s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.979s] -- Searching for dependencies of ignition-common3-graphics
+[2.979s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.982s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.983s] -- Searching for dependencies of ignition-fuel_tools4
+[3.107s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.126s] -- Checking for module 'jsoncpp'
+[3.153s] --   Found jsoncpp, version 1.9.5
+[3.209s] -- Found JSONCPP: TRUE  
+[3.217s] -- Checking for module 'libzip'
+[3.235s] --   Found libzip, version 1.7.3
+[3.284s] -- Found ZIP: TRUE  
+[3.285s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.285s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.286s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.291s] -- Gazebo version: 11.10
+[3.291s] -- Checking for module 'tbb'
+[3.308s] --   Found tbb, version 2021.5.0
+[3.354s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.354s] -- Searching for dependencies of ignition-common4
+[3.355s] -- Looking for dlfcn.h - found
+[3.355s] -- Looking for libdl - found
+[3.369s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.370s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[3.371s] -- Searching for dependencies of ignition-gazebo6
+[3.374s] -- Looking for sdformat12 -- found version 12.8.0
+[3.375s] -- Searching for dependencies of sdformat12
+[3.385s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.388s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.389s] -- Searching for dependencies of ignition-utils1
+[3.396s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[3.396s] -- Searching for dependencies of ignition-plugin1
+[3.396s] -- Searching for <ignition-plugin1> component [loader]
+[3.399s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[3.400s] -- Searching for dependencies of ignition-plugin1-loader
+[3.400s] -- Searching for <ignition-plugin1> component [register]
+[3.403s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[3.404s] -- Searching for dependencies of ignition-plugin1-register
+[3.408s] -- Looking for ignition-transport11 -- found version 11.4.1
+[3.408s] -- Searching for dependencies of ignition-transport11
+[3.436s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.454s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.461s] -- Checking for module 'libzmq >= 4'
+[3.479s] --   Found libzmq , version 4.3.4
+[3.550s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.554s] -- Searching for dependencies of ignition-utils1
+[3.554s] -- Searching for <ignition-utils1> component [cli]
+[3.555s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[3.555s] -- Searching for dependencies of ignition-utils1-cli
+[3.558s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.558s] -- Searching for dependencies of ignition-msgs8
+[3.588s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.590s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.601s] -- Searching for <ignition-transport11> component [log]
+[3.604s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[3.605s] -- Searching for dependencies of ignition-transport11-log
+[3.606s] -- Searching for <ignition-transport11> component [parameters]
+[3.608s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[3.609s] -- Searching for dependencies of ignition-transport11-parameters
+[3.611s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.611s] -- Looking for ignition-common4 -- found version 4.7.0
+[3.612s] -- Searching for dependencies of ignition-common4
+[3.612s] -- Looking for dlfcn.h - found
+[3.612s] -- Looking for libdl - found
+[3.625s] -- Searching for <ignition-common4> component [profiler]
+[3.629s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[3.629s] -- Searching for dependencies of ignition-common4-profiler
+[3.630s] -- Searching for <ignition-common4> component [events]
+[3.633s] -- Looking for ignition-common4-events -- found version 4.7.0
+[3.634s] -- Searching for dependencies of ignition-common4-events
+[3.634s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.635s] -- Searching for <ignition-common4> component [av]
+[3.638s] -- Looking for ignition-common4-av -- found version 4.7.0
+[3.639s] -- Searching for dependencies of ignition-common4-av
+[3.647s] -- Checking for module 'libswscale'
+[3.664s] --   Found libswscale, version 5.9.100
+[3.707s] -- Found SWSCALE: TRUE  
+[3.713s] -- Checking for module 'libavdevice >= 56.4.100'
+[3.730s] --   Found libavdevice , version 58.13.100
+[3.783s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[3.788s] -- Checking for module 'libavformat'
+[3.805s] --   Found libavformat, version 58.76.100
+[3.852s] -- Found AVFORMAT: TRUE  
+[3.860s] -- Checking for module 'libavcodec'
+[3.877s] --   Found libavcodec, version 58.134.100
+[3.920s] -- Found AVCODEC: TRUE  
+[3.927s] -- Checking for module 'libavutil'
+[3.944s] --   Found libavutil, version 56.70.100
+[3.989s] -- Found AVUTIL: TRUE  
+[3.993s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.441s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.060s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.324s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.365s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.366s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.367s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.405s] -- Found PythonExtra: .so  
+[5.509s] -- Configuring done
+[5.521s] [31mCMake Error at CMakeLists.txt:34 (add_library):
+[5.521s]   Target "motor_controller_plugin" links to target
+[5.521s]   "ignition-gazebo6::ignition-gazebo6" but the target was not found.  Perhaps
+[5.521s]   a find_package() call is missing for an IMPORTED target, or an ALIAS target
+[5.521s]   is missing?
+[5.522s] 
+[5.522s] [0m
+[5.573s] -- Generating done
+[5.577s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[5.597s] Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parsa/ros2_urdf_ws/install/inverse_kinematics://home/parsa/ros2_urdf_ws/install/inverse_kinematics:/opt/ros/humble /usr/bin/cmake /home/parsa/ws_ros2/src/custom_vtol_plugin -DCMAKE_INSTALL_PREFIX=/home/parsa/ws_ros2/install/custom_vtol_plugin
