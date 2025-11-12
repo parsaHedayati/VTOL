@@ -1,0 +1,430 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+-- Looking for gz-sim8 -- found version 8.10.0
+-- Searching for dependencies of gz-sim8
+-- Looking for sdformat14 -- found version 14.8.0
+-- Searching for dependencies of sdformat14
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 9.0.0
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.1
+-- Searching for dependencies of gz-utils2-cli
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [loader]
+-- Looking for gz-plugin2-loader -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-loader
+-- Searching for <gz-plugin2> component [register]
+-- Looking for gz-plugin2-register -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Searching for dependencies of gz-transport13
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.4
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Searching for dependencies of gz-msgs10
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-transport13> component [log]
+-- Looking for gz-transport13-log -- found version 13.5.0
+-- Searching for dependencies of gz-transport13-log
+-- Searching for <gz-transport13> component [parameters]
+-- Looking for gz-transport13-parameters -- found version 13.5.0
+-- Searching for dependencies of gz-transport13-parameters
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [av]
+-- Looking for gz-common5-av -- found version 5.7.1
+-- Searching for dependencies of gz-common5-av
+-- Checking for module 'libswscale'
+--   Found libswscale, version 5.9.100
+-- Checking for module 'libavdevice >= 56.4.100'
+--   Found libavdevice , version 58.13.100
+-- Checking for module 'libavformat'
+--   Found libavformat, version 58.76.100
+-- Checking for module 'libavcodec'
+--   Found libavcodec, version 58.134.100
+-- Checking for module 'libavutil'
+--   Found libavutil, version 56.70.100
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.7.1
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.7.1
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [io]
+-- Looking for gz-common5-io -- found version 5.7.1
+-- Searching for dependencies of gz-common5-io
+-- Searching for <gz-common5> component [profiler]
+-- Looking for gz-common5-profiler -- found version 5.7.1
+-- Searching for dependencies of gz-common5-profiler
+-- Looking for gz-fuel_tools9 -- found version 9.1.1
+-- Searching for dependencies of gz-fuel_tools9
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.9.5
+-- Checking for module 'libzip'
+--   Found libzip, version 1.7.3
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [testing]
+-- Looking for gz-common5-testing -- found version 5.7.1
+-- Searching for dependencies of gz-common5-testing
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-gui8 -- found version 8.4.0
+-- Searching for dependencies of gz-gui8
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.5.1
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Searching for <gz-common5> component [events]
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.7.1
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for gz-physics7 -- found version 7.6.0
+-- Searching for dependencies of gz-physics7
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Searching for <gz-physics7> component [heightmap]
+-- Looking for gz-physics7-heightmap -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-heightmap
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for <gz-physics7> component [mesh]
+-- Looking for gz-physics7-mesh -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-mesh
+-- Looking for gz-common5 -- found version 5.7.1
+-- Searching for <gz-physics7> component [sdf]
+-- Looking for gz-physics7-sdf -- found version 7.6.0
+-- Searching for dependencies of gz-physics7-sdf
+-- Looking for sdformat14 -- found version 14.8.0
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.8.0
+-- Searching for <gz-sensors8> component [air_pressure]
+-- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_pressure
+-- Searching for <gz-sensors8> component [air_speed]
+-- Looking for gz-sensors8-air_speed -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-air_speed
+-- Searching for <gz-sensors8> component [altimeter]
+-- Looking for gz-sensors8-altimeter -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-altimeter
+-- Searching for <gz-sensors8> component [imu]
+-- Looking for gz-sensors8-imu -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-imu
+-- Searching for <gz-sensors8> component [force_torque]
+-- Looking for gz-sensors8-force_torque -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-force_torque
+-- Searching for <gz-sensors8> component [logical_camera]
+-- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-logical_camera
+-- Searching for <gz-sensors8> component [magnetometer]
+-- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-magnetometer
+-- Searching for <gz-sensors8> component [navsat]
+-- Looking for gz-sensors8-navsat -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-navsat
+-- Searching for <gz-sensors8> component [dvl]
+-- Looking for gz-sensors8-dvl -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-dvl
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-transport13 -- found version 13.5.0
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-msgs10 -- found version 10.3.2
+-- Looking for sdformat14 -- found version 14.8.0
+-- Searching for <gz-sensors8> component [rendering]
+-- Looking for gz-sensors8-rendering -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rendering
+-- Searching for <gz-sensors8> component [rendering]
+-- Searching for <gz-sensors8> component [lidar]
+-- Looking for gz-sensors8-lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [gpu_lidar]
+-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-gpu_lidar
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [camera]
+-- Looking for gz-sensors8-camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [boundingbox_camera]
+-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-boundingbox_camera
+-- Searching for <gz-sensors8> component [segmentation_camera]
+-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-segmentation_camera
+-- Searching for <gz-sensors8> component [depth_camera]
+-- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-depth_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [rgbd_camera]
+-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-rgbd_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [thermal_camera]
+-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-thermal_camera
+-- Looking for gz-sensors8 -- found version 8.2.2
+-- Searching for <gz-sensors8> component [wide_angle_camera]
+-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+-- Searching for dependencies of gz-sensors8-wide_angle_camera
+-- Looking for gz-rendering8 -- found version 8.2.2
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-utils2 -- found version 2.2.1
+-- Looking for gz-math8 -- found version 8.2.0
+-- Searching for dependencies of gz-math8
+-- Looking for gz-utils3 -- found version 3.1.1
+-- Searching for dependencies of gz-utils3
+-- Looking for gz-common5 -- found version 5.7.1
+-- Looking for gz-plugin2 -- found version 2.0.4
+-- Looking for gz-msgs9 -- found version 9.5.1
+-- Searching for dependencies of gz-msgs9
+-- Looking for gz-math7 -- found version 7.5.1
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/parsa/ws_ros2/build/custom_vtol_plugin
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_c[0m
+[  3%] Built target custom_vtol_plugin__cpp
+[ 12%] Built target custom_vtol_plugin__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_cpp[0m
+[ 21%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_cpp
+[ 21%] Built target ament_cmake_python_copy_custom_vtol_plugin
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c[0m
+[ 30%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c
+[ 39%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c[0m
+[ 48%] Built target custom_vtol_plugin__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp[0m
+[ 57%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_cpp[0m
+[ 66%] Built target custom_vtol_plugin__rosidl_typesupport_cpp
+[ 66%] Built target custom_vtol_plugin
+[35m[1mConsolidate compiler generated dependencies of target motor_controller_plugin[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o[0m
+running egg_info
+writing custom_vtol_plugin.egg-info/PKG-INFO
+writing dependency_links to custom_vtol_plugin.egg-info/dependency_links.txt
+writing top-level names to custom_vtol_plugin.egg-info/top_level.txt
+reading manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+writing manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+[ 69%] Built target ament_cmake_python_build_custom_vtol_plugin_egg
+[ 72%] Built target custom_vtol_plugin__py
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_py[0m
+[ 78%] Built target custom_vtol_plugin__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 84%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c__pyext[0m
+[ 90%] Built target custom_vtol_plugin__rosidl_typesupport_c__pyext
+[35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext[0m
+[ 96%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:174:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  174 | }[01;31m[K [m[K// namespace custom_vtol_plugin
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual custom_vtol_plugin::MotorControllerPlugin::~MotorControllerPlugin()[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+   37 |     [01;31m[Krunning_[m[K = false;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec_thread_[m[K’ was not declared in this scope
+   38 |     if ([01;31m[Kexec_thread_[m[K.joinable()) {
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:61:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   61 |          [01;31m[Kros_node_[m[K = std::make_shared<rclcpp::Node>("motor_controller_plugin");
+      |          [01;31m[K^~~~~~~~~[m[K
+      |          [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:68:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+   68 |     auto qos = rclcpp::[01;31m[KSensorDataQos[m[K();
+      |                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                        [32m[KSensorDataQoS[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub[m[K’ was not declared in this scope; did you mean ‘[01m[Kfsub[m[K’?
+   72 |         [01;31m[Ksub[m[K = ros_node_->create_subscription<custom_vtol_plugin::msg::MotorCommands>(
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kfsub[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   72 |         sub = [01;31m[Kros_node_[m[K->create_subscription<custom_vtol_plugin::msg::MotorCommands>(
+      |               [01;31m[K^~~~~~~~~[m[K
+      |               [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   72 |         sub = ros_node_->create_subscription<custom_vtol_plugin::msg::MotorCommands[01;31m[K>[m[K(
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In lambda function:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:75:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+   75 |           std::lock_guard<std::mutex> lock([01;31m[Kmutex_[m[K);
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:76:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands_[m[K’ was not declared in this scope
+   76 |           for(size_t i =0; i<[01;31m[Kcommands_[m[K.size() && i < msg->motor_values.size(); ++i){
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kor[m[K’ token
+   80 |           [01;31m[Kor[m[K (auto val : msg->motor_values) std::cout << val << " ";
+      |           [01;31m[K^~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:24:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   80 |           or (auto val [01;31m[K:[m[K msg->motor_values) std::cout << val << " ";
+      |                        [01;31m[K^[m[K
+      |                        [32m[K::[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kauto[m[K’
+   80 |           or ([01;31m[Kauto[m[K val : msg->motor_values) std::cout << val << " ";
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kauto[m[K’
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kauto[m[K’
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:14:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   80 |           or [01;36m[K([m[Kauto val : msg->motor_values) std::cout << val << " ";
+      |              [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:91:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ was not declared in this scope
+   91 |   [01;31m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:92:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   92 |   executor_->add_node([01;31m[Kros_node_[m[K);
+      |                       [01;31m[K^~~~~~~~~[m[K
+      |                       [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+   93 |   [01;31m[Krunning_[m[K = true;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec_thread_[m[K’ was not declared in this scope
+   94 |   [01;31m[Kexec_thread_[m[K = std::thread([this]()
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In lambda function:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:97:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ is not captured
+   97 |     while ([01;31m[Krunning_[m[K) {
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:35:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   94 |   exec_thread_ = std::thread([this[01;36m[K][m[K()
+      |                                   [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:93:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>running_[m[K’ declared here
+   93 |   [01;36m[Krunning_[m[K = true;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:98:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ is not captured
+   98 |       [01;31m[Kexecutor_[m[K->spin_some();
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:35:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   94 |   exec_thread_ = std::thread([this[01;36m[K][m[K()
+      |                                   [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:91:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor_[m[K’ declared here
+   91 |   [01;36m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:114:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  114 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:154:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+  154 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:158:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcommands_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  158 |   std::array<int16_t, 5> [01;35m[Kcommands_[m[K{{1000, 1000, 1000, 1000, 1000}};
+      |                          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:170:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KK_THRUST_GAIN[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  170 |   const double [01;35m[KK_THRUST_GAIN[m[K = 0.05;
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:171:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KK_YAW_TORQUE_GAIN[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  171 |   const double [01;35m[KK_YAW_TORQUE_GAIN[m[K = 0.001;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:44:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_entity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |   void Configure([01;35m[Kconst gz::sim::Entity &_entity[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:46:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_ecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 |                  [01;35m[Kgz::sim::EntityComponentManager &_ecm[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:8[m[K:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In constructor ‘[01m[Kcustom_vtol_plugin::gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:177:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksim[m[K’ is not a member of ‘[01m[Kcustom_vtol_plugin::gz[m[K’; did you mean ‘[01m[Kgz::sim[m[K’?
+  177 |               gz::[01;31m[Ksim[m[K::System,
+      |                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:1[m[K:
+[01m[K/usr/include/gz/sim8/gz/sim/Entity.hh:29:13:[m[K [01;36m[Knote: [m[K‘[01m[Kgz::sim[m[K’ declared here
+   29 |   namespace [01;36m[Ksim[m[K
+      |             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:8[m[K:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K At global scope:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:24:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   24 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_controller_plugin.dir/build.make:76: CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/motor_controller_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

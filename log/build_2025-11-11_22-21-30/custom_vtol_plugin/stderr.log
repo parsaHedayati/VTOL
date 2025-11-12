@@ -1,0 +1,136 @@
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:174:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  174 | }[01;31m[K [m[K// namespace custom_vtol_plugin
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual custom_vtol_plugin::MotorControllerPlugin::~MotorControllerPlugin()[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+   37 |     [01;31m[Krunning_[m[K = false;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec_thread_[m[K’ was not declared in this scope
+   38 |     if ([01;31m[Kexec_thread_[m[K.joinable()) {
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:61:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   61 |          [01;31m[Kros_node_[m[K = std::make_shared<rclcpp::Node>("motor_controller_plugin");
+      |          [01;31m[K^~~~~~~~~[m[K
+      |          [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:68:24:[m[K [01;31m[Kerror: [m[K‘[01m[KSensorDataQos[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[KSensorDataQoS[m[K’?
+   68 |     auto qos = rclcpp::[01;31m[KSensorDataQos[m[K();
+      |                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                        [32m[KSensorDataQoS[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub[m[K’ was not declared in this scope; did you mean ‘[01m[Kfsub[m[K’?
+   72 |         [01;31m[Ksub[m[K = ros_node_->create_subscription<custom_vtol_plugin::msg::MotorCommands>(
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kfsub[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   72 |         sub = [01;31m[Kros_node_[m[K->create_subscription<custom_vtol_plugin::msg::MotorCommands>(
+      |               [01;31m[K^~~~~~~~~[m[K
+      |               [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:72:84:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   72 |         sub = ros_node_->create_subscription<custom_vtol_plugin::msg::MotorCommands[01;31m[K>[m[K(
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In lambda function:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:75:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+   75 |           std::lock_guard<std::mutex> lock([01;31m[Kmutex_[m[K);
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:76:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands_[m[K’ was not declared in this scope
+   76 |           for(size_t i =0; i<[01;31m[Kcommands_[m[K.size() && i < msg->motor_values.size(); ++i){
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kor[m[K’ token
+   80 |           [01;31m[Kor[m[K (auto val : msg->motor_values) std::cout << val << " ";
+      |           [01;31m[K^~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:24:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   80 |           or (auto val [01;31m[K:[m[K msg->motor_values) std::cout << val << " ";
+      |                        [01;31m[K^[m[K
+      |                        [32m[K::[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kauto[m[K’
+   80 |           or ([01;31m[Kauto[m[K val : msg->motor_values) std::cout << val << " ";
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kauto[m[K’
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kauto[m[K’
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:80:14:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   80 |           or [01;36m[K([m[Kauto val : msg->motor_values) std::cout << val << " ";
+      |              [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:91:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ was not declared in this scope
+   91 |   [01;31m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:92:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_node_t[m[K’?
+   92 |   executor_->add_node([01;31m[Kros_node_[m[K);
+      |                       [01;31m[K^~~~~~~~~[m[K
+      |                       [32m[Krmw_node_t[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ was not declared in this scope
+   93 |   [01;31m[Krunning_[m[K = true;
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kexec_thread_[m[K’ was not declared in this scope
+   94 |   [01;31m[Kexec_thread_[m[K = std::thread([this]()
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In lambda function:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:97:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krunning_[m[K’ is not captured
+   97 |     while ([01;31m[Krunning_[m[K) {
+      |            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:35:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   94 |   exec_thread_ = std::thread([this[01;36m[K][m[K()
+      |                                   [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:93:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>running_[m[K’ declared here
+   93 |   [01;36m[Krunning_[m[K = true;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:98:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kexecutor_[m[K’ is not captured
+   98 |       [01;31m[Kexecutor_[m[K->spin_some();
+      |       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:94:35:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   94 |   exec_thread_ = std::thread([this[01;36m[K][m[K()
+      |                                   [01;36m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:91:3:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>executor_[m[K’ declared here
+   91 |   [01;36m[Kexecutor_[m[K = std::make_shared<rclcpp::executors::SingleThreadedExecutor>();
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void custom_vtol_plugin::MotorControllerPlugin::Configure(const Entity&, const std::shared_ptr<const sdf::v14::Element>&, gz::sim::v8::EntityComponentManager&, gz::sim::v8::EventManager&)[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:114:3:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  114 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:154:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+  154 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:158:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcommands_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  158 |   std::array<int16_t, 5> [01;35m[Kcommands_[m[K{{1000, 1000, 1000, 1000, 1000}};
+      |                          [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:170:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KK_THRUST_GAIN[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  170 |   const double [01;35m[KK_THRUST_GAIN[m[K = 0.05;
+      |                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:171:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KK_YAW_TORQUE_GAIN[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  171 |   const double [01;35m[KK_YAW_TORQUE_GAIN[m[K = 0.001;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:44:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_entity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   44 |   void Configure([01;35m[Kconst gz::sim::Entity &_entity[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:46:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_ecm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 |                  [01;35m[Kgz::sim::EntityComponentManager &_ecm[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/usr/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:8[m[K:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K In constructor ‘[01m[Kcustom_vtol_plugin::gz::plugin::{anonymous}::ExecuteWhenLoadingLibrary0::ExecuteWhenLoadingLibrary0()[m[K’:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:177:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksim[m[K’ is not a member of ‘[01m[Kcustom_vtol_plugin::gz[m[K’; did you mean ‘[01m[Kgz::sim[m[K’?
+  177 |               gz::[01;31m[Ksim[m[K::System,
+      |                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:1[m[K:
+[01m[K/usr/include/gz/sim8/gz/sim/Entity.hh:29:13:[m[K [01;36m[Knote: [m[K‘[01m[Kgz::sim[m[K’ declared here
+   29 |   namespace [01;36m[Ksim[m[K
+      |             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/gz/plugin2/gz/plugin/Register.hh:22[m[K,
+                 from [01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:8[m[K:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:[m[K At global scope:
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  176 | [01;31m[KGZ_ADD_PLUGIN[m[K(custom_vtol_plugin::MotorControllerPlugin,
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:24:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   24 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/motor_controller_plugin.dir/build.make:76: CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/motor_controller_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

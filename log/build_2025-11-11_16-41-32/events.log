@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'custom_vtol_plugin'}
+[0.000537] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000571] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000598] (-) EventReactorShutdown: {}

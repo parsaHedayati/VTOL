@@ -1,0 +1,430 @@
+[0.021s] Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parsa/ws_ros2/build/custom_vtol_plugin -- -j5 -l5
+[0.078s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.332s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.380s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.393s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.500s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.748s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[0.758s] -- Looking for gz-sim8 -- found version 8.10.0
+[0.759s] -- Searching for dependencies of gz-sim8
+[0.760s] -- Looking for sdformat14 -- found version 14.8.0
+[0.760s] -- Searching for dependencies of sdformat14
+[0.768s] -- Checking for module 'tinyxml2'
+[0.786s] --   Found tinyxml2, version 9.0.0
+[0.843s] -- Looking for gz-math7 -- found version 7.5.1
+[0.843s] -- Searching for dependencies of gz-math7
+[0.845s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.848s] -- Searching for dependencies of gz-utils2
+[0.849s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.850s] -- Searching for dependencies of gz-utils2
+[0.850s] -- Searching for <gz-utils2> component [cli]
+[0.851s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.852s] -- Searching for dependencies of gz-utils2-cli
+[0.854s] -- Looking for gz-plugin2 -- found version 2.0.4
+[0.855s] -- Searching for dependencies of gz-plugin2
+[0.856s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.857s] -- Searching for <gz-plugin2> component [loader]
+[0.859s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[0.862s] -- Searching for dependencies of gz-plugin2-loader
+[0.862s] -- Searching for <gz-plugin2> component [register]
+[0.862s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[0.862s] -- Searching for dependencies of gz-plugin2-register
+[0.864s] -- Looking for gz-transport13 -- found version 13.5.0
+[0.865s] -- Searching for dependencies of gz-transport13
+[0.916s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.925s] -- Checking for module 'libzmq >= 4'
+[0.948s] --   Found libzmq , version 4.3.4
+[1.012s] -- Checking for module 'uuid'
+[1.040s] --   Found uuid, version 2.37.2
+[1.095s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.095s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.096s] -- Searching for dependencies of gz-msgs10
+[1.127s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.128s] -- Looking for gz-math7 -- found version 7.5.1
+[1.143s] -- Searching for <gz-transport13> component [log]
+[1.143s] -- Looking for gz-transport13-log -- found version 13.5.0
+[1.144s] -- Searching for dependencies of gz-transport13-log
+[1.145s] -- Searching for <gz-transport13> component [parameters]
+[1.146s] -- Looking for gz-transport13-parameters -- found version 13.5.0
+[1.146s] -- Searching for dependencies of gz-transport13-parameters
+[1.148s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.149s] -- Looking for gz-common5 -- found version 5.7.1
+[1.149s] -- Searching for dependencies of gz-common5
+[1.150s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.151s] -- Looking for dlfcn.h - found
+[1.151s] -- Looking for libdl - found
+[1.166s] -- Searching for <gz-common5> component [av]
+[1.166s] -- Looking for gz-common5-av -- found version 5.7.1
+[1.167s] -- Searching for dependencies of gz-common5-av
+[1.177s] -- Checking for module 'libswscale'
+[1.195s] --   Found libswscale, version 5.9.100
+[1.251s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.274s] --   Found libavdevice , version 58.13.100
+[1.339s] -- Checking for module 'libavformat'
+[1.361s] --   Found libavformat, version 58.76.100
+[1.452s] -- Checking for module 'libavcodec'
+[1.473s] --   Found libavcodec, version 58.134.100
+[1.528s] -- Checking for module 'libavutil'
+[1.550s] --   Found libavutil, version 56.70.100
+[1.605s] -- Searching for <gz-common5> component [events]
+[1.607s] -- Looking for gz-common5-events -- found version 5.7.1
+[1.607s] -- Searching for dependencies of gz-common5-events
+[1.607s] -- Looking for gz-math7 -- found version 7.5.1
+[1.608s] -- Searching for <gz-common5> component [graphics]
+[1.610s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[1.612s] -- Searching for dependencies of gz-common5-graphics
+[1.612s] -- Looking for gz-math7 -- found version 7.5.1
+[1.615s] -- Searching for <gz-common5> component [io]
+[1.619s] -- Looking for gz-common5-io -- found version 5.7.1
+[1.620s] -- Searching for dependencies of gz-common5-io
+[1.620s] -- Searching for <gz-common5> component [profiler]
+[1.620s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[1.620s] -- Searching for dependencies of gz-common5-profiler
+[1.625s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[1.625s] -- Searching for dependencies of gz-fuel_tools9
+[1.700s] -- Checking for module 'jsoncpp'
+[1.727s] --   Found jsoncpp, version 1.9.5
+[1.797s] -- Checking for module 'libzip'
+[1.824s] --   Found libzip, version 1.7.3
+[1.880s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.881s] -- Looking for gz-common5 -- found version 5.7.1
+[1.881s] -- Searching for dependencies of gz-common5
+[1.881s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.882s] -- Looking for dlfcn.h - found
+[1.883s] -- Looking for libdl - found
+[1.896s] -- Searching for <gz-common5> component [testing]
+[1.897s] -- Looking for gz-common5-testing -- found version 5.7.1
+[1.898s] -- Searching for dependencies of gz-common5-testing
+[1.900s] -- Looking for gz-math7 -- found version 7.5.1
+[1.900s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.902s] -- Looking for gz-gui8 -- found version 8.4.0
+[1.904s] -- Searching for dependencies of gz-gui8
+[1.944s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.950s] -- Looking for gz-math7 -- found version 7.5.1
+[1.950s] -- Looking for gz-common5 -- found version 5.7.1
+[1.950s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.950s] -- Looking for gz-transport13 -- found version 13.5.0
+[1.950s] -- Looking for gz-rendering8 -- found version 8.2.2
+[1.950s] -- Searching for dependencies of gz-rendering8
+[1.956s] -- Looking for gz-math7 -- found version 7.5.1
+[1.957s] -- Searching for dependencies of gz-math7
+[1.957s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.957s] -- Searching for <gz-math7> component [eigen3]
+[1.957s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[1.957s] -- Searching for dependencies of gz-math7-eigen3
+[1.961s] -- Looking for gz-common5 -- found version 5.7.1
+[1.961s] -- Searching for dependencies of gz-common5
+[1.962s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.963s] -- Looking for dlfcn.h - found
+[1.964s] -- Looking for libdl - found
+[1.976s] -- Searching for <gz-common5> component [graphics]
+[1.977s] -- Searching for <gz-common5> component [events]
+[1.978s] -- Searching for <gz-common5> component [geospatial]
+[1.979s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[1.979s] -- Searching for dependencies of gz-common5-geospatial
+[1.980s] -- Looking for gz-math7 -- found version 7.5.1
+[1.981s] -- Looking for gz-common5 -- found version 5.7.1
+[1.983s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.984s] -- Searching for dependencies of gz-plugin2
+[1.984s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.986s] -- Searching for <gz-plugin2> component [all]
+[1.986s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[1.987s] -- Looking for gz-plugin2 -- found version 2.0.4
+[1.989s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.993s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.017s] -- Looking for gz-physics7 -- found version 7.6.0
+[2.018s] -- Searching for dependencies of gz-physics7
+[2.018s] -- Looking for gz-common5 -- found version 5.7.1
+[2.019s] -- Looking for gz-math7 -- found version 7.5.1
+[2.020s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.021s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.022s] -- Searching for <gz-physics7> component [heightmap]
+[2.023s] -- Looking for gz-physics7-heightmap -- found version 7.6.0
+[2.024s] -- Searching for dependencies of gz-physics7-heightmap
+[2.024s] -- Looking for gz-common5 -- found version 5.7.1
+[2.025s] -- Searching for <gz-physics7> component [mesh]
+[2.026s] -- Looking for gz-physics7-mesh -- found version 7.6.0
+[2.026s] -- Searching for dependencies of gz-physics7-mesh
+[2.027s] -- Looking for gz-common5 -- found version 5.7.1
+[2.028s] -- Searching for <gz-physics7> component [sdf]
+[2.028s] -- Looking for gz-physics7-sdf -- found version 7.6.0
+[2.029s] -- Searching for dependencies of gz-physics7-sdf
+[2.030s] -- Looking for sdformat14 -- found version 14.8.0
+[2.032s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.033s] -- Searching for dependencies of gz-sensors8
+[2.065s] -- Looking for gz-math7 -- found version 7.5.1
+[2.066s] -- Looking for gz-common5 -- found version 5.7.1
+[2.066s] -- Looking for gz-transport13 -- found version 13.5.0
+[2.067s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.068s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.069s] -- Looking for sdformat14 -- found version 14.8.0
+[2.070s] -- Searching for <gz-sensors8> component [air_pressure]
+[2.071s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[2.072s] -- Searching for dependencies of gz-sensors8-air_pressure
+[2.075s] -- Searching for <gz-sensors8> component [air_speed]
+[2.076s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[2.077s] -- Searching for dependencies of gz-sensors8-air_speed
+[2.077s] -- Searching for <gz-sensors8> component [altimeter]
+[2.079s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[2.079s] -- Searching for dependencies of gz-sensors8-altimeter
+[2.079s] -- Searching for <gz-sensors8> component [imu]
+[2.079s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[2.080s] -- Searching for dependencies of gz-sensors8-imu
+[2.080s] -- Searching for <gz-sensors8> component [force_torque]
+[2.081s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[2.083s] -- Searching for dependencies of gz-sensors8-force_torque
+[2.083s] -- Searching for <gz-sensors8> component [logical_camera]
+[2.083s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[2.084s] -- Searching for dependencies of gz-sensors8-logical_camera
+[2.085s] -- Searching for <gz-sensors8> component [magnetometer]
+[2.086s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[2.087s] -- Searching for dependencies of gz-sensors8-magnetometer
+[2.088s] -- Searching for <gz-sensors8> component [navsat]
+[2.088s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[2.089s] -- Searching for dependencies of gz-sensors8-navsat
+[2.090s] -- Searching for <gz-sensors8> component [dvl]
+[2.091s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[2.091s] -- Searching for dependencies of gz-sensors8-dvl
+[2.092s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.092s] -- Searching for dependencies of gz-sensors8
+[2.127s] -- Looking for gz-math7 -- found version 7.5.1
+[2.127s] -- Looking for gz-common5 -- found version 5.7.1
+[2.128s] -- Looking for gz-transport13 -- found version 13.5.0
+[2.128s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.133s] -- Looking for gz-msgs10 -- found version 10.3.2
+[2.135s] -- Looking for sdformat14 -- found version 14.8.0
+[2.135s] -- Searching for <gz-sensors8> component [rendering]
+[2.135s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[2.136s] -- Searching for dependencies of gz-sensors8-rendering
+[2.137s] -- Searching for <gz-sensors8> component [rendering]
+[2.137s] -- Searching for <gz-sensors8> component [lidar]
+[2.137s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[2.139s] -- Searching for dependencies of gz-sensors8-lidar
+[2.139s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.139s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[2.139s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[2.140s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[2.141s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.141s] -- Searching for <gz-sensors8> component [camera]
+[2.143s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[2.144s] -- Searching for dependencies of gz-sensors8-camera
+[2.144s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.144s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[2.145s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[2.146s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[2.147s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[2.147s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[2.148s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[2.149s] -- Searching for <gz-sensors8> component [depth_camera]
+[2.149s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[2.150s] -- Searching for dependencies of gz-sensors8-depth_camera
+[2.151s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.152s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[2.153s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[2.154s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[2.154s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.155s] -- Searching for <gz-sensors8> component [thermal_camera]
+[2.158s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[2.158s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[2.160s] -- Looking for gz-sensors8 -- found version 8.2.2
+[2.160s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[2.160s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[2.160s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[2.164s] -- Looking for gz-rendering8 -- found version 8.2.2
+[2.164s] -- Looking for gz-math7 -- found version 7.5.1
+[2.165s] -- Looking for gz-utils2 -- found version 2.2.1
+[2.200s] -- Looking for gz-math8 -- found version 8.2.0
+[2.209s] -- Searching for dependencies of gz-math8
+[2.210s] -- Looking for gz-utils3 -- found version 3.1.1
+[2.210s] -- Searching for dependencies of gz-utils3
+[2.213s] -- Looking for gz-common5 -- found version 5.7.1
+[2.214s] -- Looking for gz-plugin2 -- found version 2.0.4
+[2.214s] -- Looking for gz-msgs9 -- found version 9.5.1
+[2.215s] -- Searching for dependencies of gz-msgs9
+[2.250s] -- Looking for gz-math7 -- found version 7.5.1
+[2.262s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.805s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.830s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.876s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.876s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.876s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.946s] -- Configuring done
+[4.017s] -- Generating done
+[4.042s] -- Build files have been written to: /home/parsa/ws_ros2/build/custom_vtol_plugin
+[4.110s] [  3%] Built target custom_vtol_plugin__cpp
+[4.155s] [  3%] Built target ament_cmake_python_copy_custom_vtol_plugin
+[4.176s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_cpp[0m
+[4.198s] [ 12%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_cpp
+[4.611s] running egg_info
+[4.638s] writing custom_vtol_plugin.egg-info/PKG-INFO
+[4.640s] writing dependency_links to custom_vtol_plugin.egg-info/dependency_links.txt
+[4.640s] writing top-level names to custom_vtol_plugin.egg-info/top_level.txt
+[4.723s] reading manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+[4.725s] writing manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+[4.771s] [ 12%] Built target ament_cmake_python_build_custom_vtol_plugin_egg
+[4.793s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp[0m
+[4.818s] [ 21%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp
+[4.840s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_cpp[0m
+[4.862s] [ 30%] Built target custom_vtol_plugin__rosidl_typesupport_cpp
+[4.881s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_c[0m
+[4.904s] [ 39%] Built target custom_vtol_plugin__rosidl_generator_c
+[4.926s] [35m[1mConsolidate compiler generated dependencies of target motor_controller_plugin[0m
+[4.967s] [ 45%] Built target motor_controller_plugin
+[4.985s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c[0m
+[5.011s] [ 54%] Built target custom_vtol_plugin__rosidl_typesupport_c
+[5.049s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c[0m
+[5.078s] [ 63%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c
+[5.099s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c[0m
+[5.128s] [ 72%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c
+[5.163s] [ 72%] Built target custom_vtol_plugin
+[5.207s] [ 75%] Built target custom_vtol_plugin__py
+[5.228s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_py[0m
+[5.252s] [ 81%] Built target custom_vtol_plugin__rosidl_generator_py
+[5.272s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.295s] [ 87%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext
+[5.312s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c__pyext[0m
+[5.334s] [ 93%] Built target custom_vtol_plugin__rosidl_typesupport_c__pyext
+[5.355s] [35m[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext[0m
+[5.382s] [100%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext
+[5.403s] Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parsa/ws_ros2/build/custom_vtol_plugin -- -j5 -l5
+[5.421s] Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parsa/ws_ros2/build/custom_vtol_plugin
+[5.438s] -- Install configuration: ""
+[5.444s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/rosidl_interfaces/custom_vtol_plugin
+[5.445s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.445s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.445s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_c__visibility_control.h
+[5.445s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.445s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.h
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.h
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.c
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.h
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.h
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.sh
+[5.446s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.dsv
+[5.446s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_c.so
+[5.447s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.447s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.448s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.448s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.448s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h
+[5.448s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_c.so
+[5.448s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.449s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.449s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.449s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp
+[5.449s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp
+[5.449s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/dds_fastrtps
+[5.450s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[5.451s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.451s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.so
+[5.451s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.452s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.453s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.453s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h
+[5.453s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.c
+[5.453s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.454s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_c.so
+[5.454s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_c.so
+[5.454s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.454s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.454s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.455s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp
+[5.455s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.cpp
+[5.455s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_cpp.so
+[5.456s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_cpp.so
+[5.456s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.sh
+[5.456s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.dsv
+[5.456s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info
+[5.456s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/dependency_links.txt
+[5.456s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/PKG-INFO
+[5.457s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/SOURCES.txt
+[5.457s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/top_level.txt
+[5.457s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin
+[5.457s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_introspection_c.c
+[5.457s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/libcustom_vtol_plugin__rosidl_generator_py.so
+[5.457s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.458s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_c.c
+[5.458s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg
+[5.459s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/__init__.py
+[5.459s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands.py
+[5.459s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands_s.c
+[5.459s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/__init__.py
+[5.459s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.460s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.460s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.525s] Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin'...
+[5.526s] Compiling '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/__init__.py'...
+[5.526s] Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg'...
+[5.538s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.539s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.541s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.541s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_py.so
+[5.542s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.idl
+[5.542s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.msg
+[5.542s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/libmotor_controller_plugin.so
+[5.543s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin
+[5.543s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[5.545s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[5.545s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.546s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp
+[5.547s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/hover_publisher.py
+[5.547s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/hover_control.py
+[5.547s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/package_run_dependencies/custom_vtol_plugin
+[5.547s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/parent_prefix_path/custom_vtol_plugin
+[5.547s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.sh
+[5.547s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.dsv
+[5.548s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.sh
+[5.548s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.dsv
+[5.548s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.bash
+[5.548s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.sh
+[5.548s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.zsh
+[5.548s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.dsv
+[5.548s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.dsv
+[5.548s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/packages/custom_vtol_plugin
+[5.549s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport.cmake
+[5.549s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport-noconfig.cmake
+[5.549s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cppExport.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.550s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport.cmake
+[5.552s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport-noconfig.cmake
+[5.552s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport.cmake
+[5.552s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.553s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport.cmake
+[5.553s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport-noconfig.cmake
+[5.555s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport.cmake
+[5.556s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport-noconfig.cmake
+[5.556s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake-extras.cmake
+[5.556s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.556s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig-version.cmake
+[5.557s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.xml
+[5.558s] Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parsa/ws_ros2/build/custom_vtol_plugin

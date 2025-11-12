@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "custom_vtol_plugin__py",
+		"source" : "/home/parsa/ws_ros2/build/custom_vtol_plugin/custom_vtol_plugin__py"
+	}
+}

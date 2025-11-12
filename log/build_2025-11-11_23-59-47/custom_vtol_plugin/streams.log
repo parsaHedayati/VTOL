@@ -1,0 +1,157 @@
+[0.018s] Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parsa/ws_ros2/build/custom_vtol_plugin -- -j5 -l5
+[0.131s] [  3%] Built target custom_vtol_plugin__cpp
+[0.210s] [  3%] Built target ament_cmake_python_copy_custom_vtol_plugin
+[0.250s] [ 12%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_cpp
+[0.630s] running egg_info
+[0.654s] writing custom_vtol_plugin.egg-info/PKG-INFO
+[0.655s] writing dependency_links to custom_vtol_plugin.egg-info/dependency_links.txt
+[0.656s] writing top-level names to custom_vtol_plugin.egg-info/top_level.txt
+[0.743s] reading manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+[0.743s] writing manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'
+[0.796s] [ 12%] Built target ament_cmake_python_build_custom_vtol_plugin_egg
+[0.838s] [ 21%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp
+[0.874s] [ 30%] Built target custom_vtol_plugin__rosidl_typesupport_cpp
+[0.912s] [ 39%] Built target custom_vtol_plugin__rosidl_generator_c
+[0.969s] [ 45%] Built target motor_controller_plugin
+[1.001s] [ 54%] Built target custom_vtol_plugin__rosidl_typesupport_c
+[1.038s] [ 63%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c
+[1.090s] [ 72%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c
+[1.124s] [ 72%] Built target custom_vtol_plugin
+[1.166s] [ 75%] Built target custom_vtol_plugin__py
+[1.202s] [ 81%] Built target custom_vtol_plugin__rosidl_generator_py
+[1.247s] [ 87%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext
+[1.298s] [ 93%] Built target custom_vtol_plugin__rosidl_typesupport_c__pyext
+[1.341s] [100%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext
+[1.366s] Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/parsa/ws_ros2/build/custom_vtol_plugin -- -j5 -l5
+[1.383s] Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parsa/ws_ros2/build/custom_vtol_plugin
+[1.397s] -- Install configuration: ""
+[1.397s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/rosidl_interfaces/custom_vtol_plugin
+[1.398s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.398s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.399s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_c__visibility_control.h
+[1.400s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.400s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.h
+[1.400s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.h
+[1.400s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.c
+[1.401s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.h
+[1.401s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.h
+[1.402s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.sh
+[1.402s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.dsv
+[1.402s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_c.so
+[1.402s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.403s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.404s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.404s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_c.so
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.406s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp
+[1.407s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp
+[1.407s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp
+[1.407s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp
+[1.407s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.408s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp
+[1.408s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.408s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.408s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.408s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/dds_fastrtps
+[1.409s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[1.409s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.409s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.so
+[1.409s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.409s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.410s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.410s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h
+[1.410s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.c
+[1.410s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.410s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_c.so
+[1.411s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_c.so
+[1.411s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.412s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.412s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.414s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.cpp
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_cpp.so
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_cpp.so
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.sh
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.dsv
+[1.415s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info
+[1.415s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/dependency_links.txt
+[1.415s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/PKG-INFO
+[1.416s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/SOURCES.txt
+[1.416s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/top_level.txt
+[1.416s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin
+[1.416s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_introspection_c.c
+[1.416s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/libcustom_vtol_plugin__rosidl_generator_py.so
+[1.416s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_c.c
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/__init__.py
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands.py
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands_s.c
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/__init__.py
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.417s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.466s] Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin'...
+[1.466s] Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg'...
+[1.474s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.474s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.474s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.475s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_py.so
+[1.475s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.idl
+[1.475s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.msg
+[1.475s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/libmotor_controller_plugin.so
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp
+[1.476s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp
+[1.477s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.477s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp
+[1.477s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/hover_publisher.py
+[1.478s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/package_run_dependencies/custom_vtol_plugin
+[1.479s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/parent_prefix_path/custom_vtol_plugin
+[1.479s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.sh
+[1.479s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.dsv
+[1.479s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.sh
+[1.479s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.dsv
+[1.480s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.bash
+[1.480s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.sh
+[1.480s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.zsh
+[1.482s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.dsv
+[1.482s] -- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.dsv
+[1.483s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/packages/custom_vtol_plugin
+[1.483s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport.cmake
+[1.483s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport-noconfig.cmake
+[1.484s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport.cmake
+[1.484s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.484s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cppExport.cmake
+[1.484s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.484s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.485s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport.cmake
+[1.485s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.485s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport.cmake
+[1.485s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport-noconfig.cmake
+[1.485s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport.cmake
+[1.489s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.489s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport.cmake
+[1.489s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport-noconfig.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport-noconfig.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.490s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig.cmake
+[1.491s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig-version.cmake
+[1.491s] -- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.xml
+[1.491s] Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/parsa/ws_ros2/build/custom_vtol_plugin

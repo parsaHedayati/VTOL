@@ -1,0 +1,2 @@
+Invoking command in '/home/parsa/ws_ros2/build/custom_vtol_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/parsa/ws_ros2/src/custom_vtol_plugin -DCMAKE_INSTALL_PREFIX=/home/parsa/ws_ros2/install/custom_vtol_plugin
+Invoked command in '/home/parsa/ws_ros2/build/custom_vtol_plugin' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/parsa/ws_ros2/src/custom_vtol_plugin -DCMAKE_INSTALL_PREFIX=/home/parsa/ws_ros2/install/custom_vtol_plugin

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"build/custom_vtol_plugin/custom_vtol_plugin__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "custom_vtol_plugin::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "custom_vtol_plugin__py::@b261079a3581f0870193",
+	"name" : "custom_vtol_plugin__py",
+	"paths" : 
+	{
+		"build" : "custom_vtol_plugin__py",
+		"source" : "build/custom_vtol_plugin/custom_vtol_plugin__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/custom_vtol_plugin/custom_vtol_plugin__py/CMakeFiles/custom_vtol_plugin__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/custom_vtol_plugin/custom_vtol_plugin__py/CMakeFiles/custom_vtol_plugin__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/custom_vtol_plugin/rosidl_generator_py/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_vtol_plugin</name>
+  <version>0.0.1</version>
+  <description>VTOL Motor Control Plugin for Gazebo Sim 8 + ROS 2 Humble</description>
+  <maintainer email="parsa@todo.todo">parsa</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Message generation -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- ROS 2 + Gazebo -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>gz-sim8</build_depend>
+  <build_depend>ament_cmake_python</build_depend>
+  
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>gz-sim8</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>ament_cmake_python</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  
+
+  <!-- THIS LINE WAS MISSING — ADD IT! -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gz-sim plugin="${prefix}/lib/custom_vtol_plugin/libmotor_controller_plugin.so"/>
+  </export>
+</package>

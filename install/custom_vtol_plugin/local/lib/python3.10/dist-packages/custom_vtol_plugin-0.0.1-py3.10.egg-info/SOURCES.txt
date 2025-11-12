@@ -1,0 +1,8 @@
+setup.py
+custom_vtol_plugin/__init__.py
+custom_vtol_plugin.egg-info/PKG-INFO
+custom_vtol_plugin.egg-info/SOURCES.txt
+custom_vtol_plugin.egg-info/dependency_links.txt
+custom_vtol_plugin.egg-info/top_level.txt
+custom_vtol_plugin/msg/__init__.py
+custom_vtol_plugin/msg/_motor_commands.py

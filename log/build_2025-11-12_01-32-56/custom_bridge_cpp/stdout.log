@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target custom_bridge[0m
+[100%] Built target custom_bridge
+-- Install configuration: ""
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/lib/custom_bridge_cpp/custom_bridge
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/ament_index/resource_index/package_run_dependencies/custom_bridge_cpp
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/ament_index/resource_index/parent_prefix_path/custom_bridge_cpp
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/environment/path.sh
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/environment/path.dsv
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/local_setup.bash
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/local_setup.sh
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/local_setup.zsh
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/local_setup.dsv
+-- Installing: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/package.dsv
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/ament_index/resource_index/packages/custom_bridge_cpp
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/cmake/custom_bridge_cppConfig.cmake
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/cmake/custom_bridge_cppConfig-version.cmake
+-- Up-to-date: /home/parsa/ws_ros2/install/custom_bridge_cpp/share/custom_bridge_cpp/package.xml

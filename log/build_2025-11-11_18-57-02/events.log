@@ -1,0 +1,782 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000479] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000541] (custom_vtol_plugin) JobQueued: {'identifier': 'custom_vtol_plugin', 'dependencies': OrderedDict()}
+[0.000585] (custom_vtol_plugin) JobStarted: {'identifier': 'custom_vtol_plugin'}
+[0.013380] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'cmake'}
+[0.017061] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'build'}
+[0.017183] (custom_vtol_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parsa/ws_ros2/build/custom_vtol_plugin', '--', '-j5', '-l5'], 'cwd': '/home/parsa/ws_ros2/build/custom_vtol_plugin', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parsa'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parsa/ws_ros2/install/px4_ros_com/lib:/home/parsa/ws_ros2/install/px4_msgs/lib:/home/parsa/ws_ros2/install/custom_vtol_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parsa'), ('OLDPWD', '/home/parsa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '841'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parsa/ws_ros2/install:/home/parsa/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parsa'), ('JOURNAL_STREAM', '8:5009'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parsa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/parsa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/parsa-VirtualBox:@/tmp/.ICE-unix/950,unix/parsa-VirtualBox:/tmp/.ICE-unix/950'), ('INVOCATION_ID', '69b59034b0c34342a4e6e45763253aaf'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('TILIX_ID', 'efedec70-8939-419c-a947-4168b0964177'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGS1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parsa/ws_ros2/build/custom_vtol_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parsa/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/parsa/.local/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7::/opt/ros/humble')]), 'shell': False}
+[0.076166] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.095612] (-) TimerEvent: {}
+[0.196058] (-) TimerEvent: {}
+[0.296647] (-) TimerEvent: {}
+[0.367632] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.396863] (-) TimerEvent: {}
+[0.435817] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.439468] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.450102] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.468955] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.497032] (-) TimerEvent: {}
+[0.506847] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.567215] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.570501] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.598890] (-) TimerEvent: {}
+[0.699478] (-) TimerEvent: {}
+[0.750660] (custom_vtol_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.799590] (-) TimerEvent: {}
+[0.834616] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[0.844919] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.10.0\n'}
+[0.846019] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.847075] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[0.847192] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.855106] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.873608] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.899892] (-) TimerEvent: {}
+[0.929417] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.933073] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.933304] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.933407] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.933957] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.936241] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.936460] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.936654] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[0.937625] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.939467] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[0.940938] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.941672] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[0.942499] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[0.943047] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[0.943823] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.944775] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[0.945281] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[0.946011] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.948204] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[0.948417] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[0.996404] (custom_vtol_plugin) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.000059] (-) TimerEvent: {}
+[1.003467] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.021329] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.082075] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.101612] (-) TimerEvent: {}
+[1.108107] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.163876] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.166086] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.166250] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.197773] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.198425] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.201832] (-) TimerEvent: {}
+[1.210328] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.211142] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.5.0\n'}
+[1.211807] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.212958] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.213491] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.5.0\n'}
+[1.214171] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.215734] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.216784] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.217489] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.218065] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.218381] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.218557] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.230403] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.231354] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[1.232216] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.239533] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.258466] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.302366] (-) TimerEvent: {}
+[1.319163] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.339918] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.401845] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.402501] (-) TimerEvent: {}
+[1.419903] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.486173] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.503107] (-) TimerEvent: {}
+[1.504286] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.562959] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.581902] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.603816] (-) TimerEvent: {}
+[1.626030] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.626649] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[1.627615] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[1.628320] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.629074] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.629731] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[1.630649] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[1.631167] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.636201] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.636507] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[1.639480] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.639717] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.639818] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[1.639905] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.640443] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[1.643332] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.699153] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.703961] (-) TimerEvent: {}
+[1.717576] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.784590] (custom_vtol_plugin) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.804174] (custom_vtol_plugin) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.804455] (-) TimerEvent: {}
+[1.853827] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.854086] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.854844] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.855097] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.855203] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.855306] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.868556] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.868789] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[1.869539] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.871005] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.873092] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.873308] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[1.873876] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[1.904633] (-) TimerEvent: {}
+[1.913729] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.914396] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.914951] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.915790] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.916338] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[1.917180] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[1.917851] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[1.918453] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.919371] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[1.919782] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.919984] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[1.920691] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[1.921743] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[1.930331] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.931062] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.931719] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.932077] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.932193] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.948525] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.948935] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.949615] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[1.950190] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[1.951498] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[1.952572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.954164] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.955863] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.956583] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[1.957111] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.957420] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[1.957932] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[1.959192] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.961991] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.966985] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[1.991588] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.6.0\n'}
+[1.992017] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[1.992572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.993157] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.994222] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[1.996398] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[1.996567] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[1.997563] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.6.0\n'}
+[1.998490] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[1.998647] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[1.999395] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[1.999638] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.6.0\n'}
+[2.000142] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[2.000751] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[2.001778] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[2.002340] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.6.0\n'}
+[2.003252] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[2.003750] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[2.004918] (-) TimerEvent: {}
+[2.005351] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.006004] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.042106] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.042794] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[2.043078] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.051984] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[2.052219] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.052426] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[2.052530] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[2.052703] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[2.052794] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[2.052889] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[2.052993] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[2.053097] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[2.053237] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[2.054837] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[2.054977] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[2.055086] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[2.055192] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[2.055290] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[2.055786] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[2.056108] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[2.057100] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[2.059558] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[2.059749] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[2.060102] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[2.060835] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[2.061452] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[2.062177] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[2.063313] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[2.063758] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[2.064389] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[2.065172] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[2.066440] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[2.067302] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[2.067451] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.067979] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[2.102654] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.103368] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[2.104060] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.5.0\n'}
+[2.104726] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[2.105098] (-) TimerEvent: {}
+[2.105476] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[2.106099] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.8.0\n'}
+[2.106618] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.107605] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[2.107875] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[2.109572] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[2.110504] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[2.111418] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[2.111682] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[2.112207] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.112991] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[2.113694] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[2.114603] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[2.115223] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.116051] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[2.116636] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[2.117475] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[2.118059] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.119212] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[2.119756] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[2.120454] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[2.121508] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[2.122400] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[2.123424] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[2.128710] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[2.129559] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[2.130362] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[2.131359] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.131945] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[2.132604] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[2.133551] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[2.134175] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.137695] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[2.137881] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[2.137980] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[2.138067] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[2.139709] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[2.139905] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[2.139994] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[2.141505] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[2.141714] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.141926] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[2.174890] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math8 -- found version 8.2.0\n'}
+[2.183692] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-math8\n'}
+[2.184302] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-utils3 -- found version 3.1.1\n'}
+[2.184944] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils3\n'}
+[2.187180] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[2.187836] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[2.188729] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[2.189462] (custom_vtol_plugin) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[2.205868] (-) TimerEvent: {}
+[2.221416] (custom_vtol_plugin) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[2.232447] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.306477] (-) TimerEvent: {}
+[2.407703] (-) TimerEvent: {}
+[2.508735] (-) TimerEvent: {}
+[2.609239] (-) TimerEvent: {}
+[2.710427] (-) TimerEvent: {}
+[2.735759] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.811403] (-) TimerEvent: {}
+[2.912942] (-) TimerEvent: {}
+[3.015597] (-) TimerEvent: {}
+[3.115961] (-) TimerEvent: {}
+[3.216365] (-) TimerEvent: {}
+[3.317082] (-) TimerEvent: {}
+[3.417823] (-) TimerEvent: {}
+[3.430445] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.519145] (-) TimerEvent: {}
+[3.620178] (-) TimerEvent: {}
+[3.679651] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.719398] (custom_vtol_plugin) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.720319] (-) TimerEvent: {}
+[3.759741] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.760005] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.760120] (custom_vtol_plugin) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.820667] (-) TimerEvent: {}
+[3.830246] (custom_vtol_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.914292] (custom_vtol_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[3.920955] (-) TimerEvent: {}
+[3.942202] (custom_vtol_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/parsa/ws_ros2/build/custom_vtol_plugin\n'}
+[3.999408] (custom_vtol_plugin) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.013409] (custom_vtol_plugin) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.024725] (-) TimerEvent: {}
+[4.033154] (custom_vtol_plugin) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_custom_vtol_plugin\n'}
+[4.130406] (-) TimerEvent: {}
+[4.231217] (-) TimerEvent: {}
+[4.331971] (-) TimerEvent: {}
+[4.426440] (custom_vtol_plugin) StdoutLine: {'line': b'running egg_info\n'}
+[4.432346] (-) TimerEvent: {}
+[4.452491] (custom_vtol_plugin) StdoutLine: {'line': b'writing custom_vtol_plugin.egg-info/PKG-INFO\n'}
+[4.453243] (custom_vtol_plugin) StdoutLine: {'line': b'writing dependency_links to custom_vtol_plugin.egg-info/dependency_links.txt\n'}
+[4.453862] (custom_vtol_plugin) StdoutLine: {'line': b'writing top-level names to custom_vtol_plugin.egg-info/top_level.txt\n'}
+[4.534319] (-) TimerEvent: {}
+[4.546203] (custom_vtol_plugin) StdoutLine: {'line': b"reading manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'\n"}
+[4.547410] (custom_vtol_plugin) StdoutLine: {'line': b"writing manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'\n"}
+[4.589304] (custom_vtol_plugin) StdoutLine: {'line': b'[  6%] Built target custom_vtol_plugin__cpp\n'}
+[4.598327] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_c\x1b[0m\n'}
+[4.611365] (custom_vtol_plugin) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.611608] (custom_vtol_plugin) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.614340] (custom_vtol_plugin) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.620614] (custom_vtol_plugin) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_generator_c.dir/rosidl_generator_c/custom_vtol_plugin/msg/detail/motor_commands__functions.c.o\x1b[0m\n'}
+[4.625643] (custom_vtol_plugin) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_custom_vtol_plugin_egg\n'}
+[4.635467] (-) TimerEvent: {}
+[4.712134] (custom_vtol_plugin) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libcustom_vtol_plugin__rosidl_generator_c.so\x1b[0m\n'}
+[4.737881] (-) TimerEvent: {}
+[4.832999] (custom_vtol_plugin) StdoutLine: {'line': b'[ 21%] Built target custom_vtol_plugin__rosidl_generator_c\n'}
+[4.839952] (-) TimerEvent: {}
+[4.863112] (custom_vtol_plugin) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.883776] (custom_vtol_plugin) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.940406] (-) TimerEvent: {}
+[5.041508] (-) TimerEvent: {}
+[5.142358] (-) TimerEvent: {}
+[5.159082] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.199299] (custom_vtol_plugin) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_vtol_plugin/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[5.242530] (-) TimerEvent: {}
+[5.252733] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.298487] (custom_vtol_plugin) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_vtol_plugin/msg/detail/dds_fastrtps/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[5.344823] (-) TimerEvent: {}
+[5.359598] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.410441] (custom_vtol_plugin) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_vtol_plugin/msg/detail/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[5.445041] (-) TimerEvent: {}
+[5.545492] (-) TimerEvent: {}
+[5.646292] (-) TimerEvent: {}
+[5.673896] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.712392] (custom_vtol_plugin) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_vtol_plugin/msg/detail/motor_commands__type_support.c.o\x1b[0m\n'}
+[5.750488] (-) TimerEvent: {}
+[5.798817] (custom_vtol_plugin) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking C shared library libcustom_vtol_plugin__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.850881] (-) TimerEvent: {}
+[5.884074] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.914191] (custom_vtol_plugin) StdoutLine: {'line': b'[ 42%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c\n'}
+[5.922191] (custom_vtol_plugin) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_vtol_plugin__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.939515] (custom_vtol_plugin) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_vtol_plugin/msg/detail/motor_commands__type_support_c.cpp.o\x1b[0m\n'}
+[5.952953] (-) TimerEvent: {}
+[5.982617] (custom_vtol_plugin) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.053255] (-) TimerEvent: {}
+[6.099417] (custom_vtol_plugin) StdoutLine: {'line': b'[ 51%] Built target custom_vtol_plugin__rosidl_typesupport_cpp\n'}
+[6.151306] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_controller_plugin\x1b[0m\n'}
+[6.153366] (-) TimerEvent: {}
+[6.243552] (custom_vtol_plugin) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o\x1b[0m\n'}
+[6.254549] (-) TimerEvent: {}
+[6.355384] (-) TimerEvent: {}
+[6.459397] (-) TimerEvent: {}
+[6.563378] (-) TimerEvent: {}
+[6.670298] (-) TimerEvent: {}
+[6.726516] (custom_vtol_plugin) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.771541] (-) TimerEvent: {}
+[6.873560] (-) TimerEvent: {}
+[6.970449] (custom_vtol_plugin) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_vtol_plugin__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.973818] (-) TimerEvent: {}
+[6.996510] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c\x1b[0m\n'}
+[7.044501] (custom_vtol_plugin) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_vtol_plugin/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[7.074003] (-) TimerEvent: {}
+[7.090158] (custom_vtol_plugin) StdoutLine: {'line': b'[ 63%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp\n'}
+[7.112596] (custom_vtol_plugin) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_vtol_plugin__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.167772] (custom_vtol_plugin) StdoutLine: {'line': b'[ 66%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_cpp\n'}
+[7.174150] (-) TimerEvent: {}
+[7.197046] (custom_vtol_plugin) StdoutLine: {'line': b'[ 66%] Built target custom_vtol_plugin__rosidl_typesupport_c\n'}
+[7.217240] (custom_vtol_plugin) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_vtol_plugin__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.274438] (-) TimerEvent: {}
+[7.352360] (custom_vtol_plugin) StdoutLine: {'line': b'[ 69%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c\n'}
+[7.375464] (-) TimerEvent: {}
+[7.395654] (custom_vtol_plugin) StdoutLine: {'line': b'[ 69%] Built target custom_vtol_plugin\n'}
+[7.433527] (custom_vtol_plugin) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.476554] (-) TimerEvent: {}
+[7.577372] (-) TimerEvent: {}
+[7.677791] (-) TimerEvent: {}
+[7.778798] (-) TimerEvent: {}
+[7.881918] (-) TimerEvent: {}
+[7.982464] (-) TimerEvent: {}
+[8.083015] (-) TimerEvent: {}
+[8.153544] (custom_vtol_plugin) StdoutLine: {'line': b'[ 72%] Built target custom_vtol_plugin__py\n'}
+[8.181537] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_generator_py\x1b[0m\n'}
+[8.183380] (-) TimerEvent: {}
+[8.217637] (custom_vtol_plugin) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_generator_py.dir/rosidl_generator_py/custom_vtol_plugin/msg/_motor_commands_s.c.o\x1b[0m\n'}
+[8.284657] (-) TimerEvent: {}
+[8.385911] (-) TimerEvent: {}
+[8.442949] (custom_vtol_plugin) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_vtol_plugin/libcustom_vtol_plugin__rosidl_generator_py.so\x1b[0m\n'}
+[8.486078] (-) TimerEvent: {}
+[8.574535] (custom_vtol_plugin) StdoutLine: {'line': b'[ 78%] Built target custom_vtol_plugin__rosidl_generator_py\n'}
+[8.594450] (-) TimerEvent: {}
+[8.610533] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.610820] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.640294] (custom_vtol_plugin) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.648333] (custom_vtol_plugin) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.694874] (-) TimerEvent: {}
+[8.795270] (-) TimerEvent: {}
+[8.876757] (custom_vtol_plugin) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.895451] (-) TimerEvent: {}
+[8.930386] (custom_vtol_plugin) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.996057] (-) TimerEvent: {}
+[8.996633] (custom_vtol_plugin) StdoutLine: {'line': b'[ 90%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.024574] (custom_vtol_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target custom_vtol_plugin__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.044179] (custom_vtol_plugin) StdoutLine: {'line': b'[ 90%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext\n'}
+[9.054895] (custom_vtol_plugin) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_vtol_plugin__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.100679] (-) TimerEvent: {}
+[9.201102] (-) TimerEvent: {}
+[9.256346] (custom_vtol_plugin) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.301403] (-) TimerEvent: {}
+[9.320932] (custom_vtol_plugin) StdoutLine: {'line': b'[ 96%] Built target custom_vtol_plugin__rosidl_typesupport_c__pyext\n'}
+[9.401689] (-) TimerEvent: {}
+[9.506780] (-) TimerEvent: {}
+[9.607220] (-) TimerEvent: {}
+[9.707696] (-) TimerEvent: {}
+[9.808324] (-) TimerEvent: {}
+[9.909344] (-) TimerEvent: {}
+[10.010806] (-) TimerEvent: {}
+[10.111418] (-) TimerEvent: {}
+[10.214442] (-) TimerEvent: {}
+[10.314851] (-) TimerEvent: {}
+[10.415312] (-) TimerEvent: {}
+[10.515628] (-) TimerEvent: {}
+[10.615945] (-) TimerEvent: {}
+[10.716322] (-) TimerEvent: {}
+[10.816835] (-) TimerEvent: {}
+[10.917940] (-) TimerEvent: {}
+[11.019472] (-) TimerEvent: {}
+[11.120061] (-) TimerEvent: {}
+[11.220770] (-) TimerEvent: {}
+[11.322370] (-) TimerEvent: {}
+[11.422726] (-) TimerEvent: {}
+[11.525673] (-) TimerEvent: {}
+[11.626096] (-) TimerEvent: {}
+[11.727366] (-) TimerEvent: {}
+[11.828648] (-) TimerEvent: {}
+[11.929853] (-) TimerEvent: {}
+[12.031203] (-) TimerEvent: {}
+[12.132381] (-) TimerEvent: {}
+[12.232927] (-) TimerEvent: {}
+[12.333610] (-) TimerEvent: {}
+[12.433982] (-) TimerEvent: {}
+[12.534483] (-) TimerEvent: {}
+[12.635516] (-) TimerEvent: {}
+[12.736517] (-) TimerEvent: {}
+[12.837074] (-) TimerEvent: {}
+[12.937555] (-) TimerEvent: {}
+[13.038344] (-) TimerEvent: {}
+[13.139502] (-) TimerEvent: {}
+[13.240155] (-) TimerEvent: {}
+[13.341539] (-) TimerEvent: {}
+[13.442165] (-) TimerEvent: {}
+[13.542815] (-) TimerEvent: {}
+[13.643129] (-) TimerEvent: {}
+[13.744212] (-) TimerEvent: {}
+[13.845274] (-) TimerEvent: {}
+[13.946099] (-) TimerEvent: {}
+[14.047413] (-) TimerEvent: {}
+[14.149950] (-) TimerEvent: {}
+[14.250783] (-) TimerEvent: {}
+[14.351817] (-) TimerEvent: {}
+[14.452608] (-) TimerEvent: {}
+[14.553515] (-) TimerEvent: {}
+[14.657488] (-) TimerEvent: {}
+[14.758062] (-) TimerEvent: {}
+[14.858662] (-) TimerEvent: {}
+[14.959375] (-) TimerEvent: {}
+[15.059805] (-) TimerEvent: {}
+[15.160375] (-) TimerEvent: {}
+[15.260819] (-) TimerEvent: {}
+[15.361329] (-) TimerEvent: {}
+[15.462466] (-) TimerEvent: {}
+[15.563096] (-) TimerEvent: {}
+[15.663880] (-) TimerEvent: {}
+[15.764445] (-) TimerEvent: {}
+[15.864920] (-) TimerEvent: {}
+[15.965398] (-) TimerEvent: {}
+[16.066519] (-) TimerEvent: {}
+[16.167721] (-) TimerEvent: {}
+[16.268532] (-) TimerEvent: {}
+[16.369363] (-) TimerEvent: {}
+[16.469714] (-) TimerEvent: {}
+[16.570526] (-) TimerEvent: {}
+[16.671491] (-) TimerEvent: {}
+[16.772655] (-) TimerEvent: {}
+[16.874105] (-) TimerEvent: {}
+[16.974679] (-) TimerEvent: {}
+[17.076801] (-) TimerEvent: {}
+[17.178784] (-) TimerEvent: {}
+[17.279279] (-) TimerEvent: {}
+[17.380505] (-) TimerEvent: {}
+[17.481837] (-) TimerEvent: {}
+[17.582445] (-) TimerEvent: {}
+[17.683552] (-) TimerEvent: {}
+[17.784698] (-) TimerEvent: {}
+[17.886373] (-) TimerEvent: {}
+[17.986759] (-) TimerEvent: {}
+[18.087426] (-) TimerEvent: {}
+[18.187806] (-) TimerEvent: {}
+[18.288342] (-) TimerEvent: {}
+[18.388869] (-) TimerEvent: {}
+[18.489630] (-) TimerEvent: {}
+[18.591025] (-) TimerEvent: {}
+[18.691361] (-) TimerEvent: {}
+[18.791765] (-) TimerEvent: {}
+[18.892469] (-) TimerEvent: {}
+[18.993455] (-) TimerEvent: {}
+[19.093955] (-) TimerEvent: {}
+[19.195481] (-) TimerEvent: {}
+[19.297636] (-) TimerEvent: {}
+[19.398118] (-) TimerEvent: {}
+[19.498616] (-) TimerEvent: {}
+[19.600274] (-) TimerEvent: {}
+[19.701386] (-) TimerEvent: {}
+[19.801908] (-) TimerEvent: {}
+[19.902523] (-) TimerEvent: {}
+[20.002961] (-) TimerEvent: {}
+[20.103544] (-) TimerEvent: {}
+[20.204085] (-) TimerEvent: {}
+[20.304701] (-) TimerEvent: {}
+[20.406668] (-) TimerEvent: {}
+[20.507679] (-) TimerEvent: {}
+[20.608127] (-) TimerEvent: {}
+[20.708538] (-) TimerEvent: {}
+[20.809683] (-) TimerEvent: {}
+[20.911146] (-) TimerEvent: {}
+[21.011480] (-) TimerEvent: {}
+[21.112622] (-) TimerEvent: {}
+[21.213072] (-) TimerEvent: {}
+[21.313925] (-) TimerEvent: {}
+[21.414515] (-) TimerEvent: {}
+[21.515839] (-) TimerEvent: {}
+[21.616145] (-) TimerEvent: {}
+[21.717403] (-) TimerEvent: {}
+[21.817778] (-) TimerEvent: {}
+[21.918210] (-) TimerEvent: {}
+[22.019786] (-) TimerEvent: {}
+[22.120304] (-) TimerEvent: {}
+[22.221653] (-) TimerEvent: {}
+[22.323697] (-) TimerEvent: {}
+[22.424557] (-) TimerEvent: {}
+[22.524999] (-) TimerEvent: {}
+[22.626790] (-) TimerEvent: {}
+[22.728824] (-) TimerEvent: {}
+[22.829983] (-) TimerEvent: {}
+[22.930884] (-) TimerEvent: {}
+[23.031682] (-) TimerEvent: {}
+[23.132670] (-) TimerEvent: {}
+[23.233728] (-) TimerEvent: {}
+[23.334512] (-) TimerEvent: {}
+[23.435353] (-) TimerEvent: {}
+[23.536190] (-) TimerEvent: {}
+[23.636740] (-) TimerEvent: {}
+[23.737774] (-) TimerEvent: {}
+[23.839384] (-) TimerEvent: {}
+[23.940615] (-) TimerEvent: {}
+[24.040978] (-) TimerEvent: {}
+[24.142538] (-) TimerEvent: {}
+[24.243478] (-) TimerEvent: {}
+[24.344087] (-) TimerEvent: {}
+[24.444842] (-) TimerEvent: {}
+[24.545853] (-) TimerEvent: {}
+[24.646314] (-) TimerEvent: {}
+[24.747500] (-) TimerEvent: {}
+[24.849486] (-) TimerEvent: {}
+[24.950588] (-) TimerEvent: {}
+[25.051098] (-) TimerEvent: {}
+[25.151802] (-) TimerEvent: {}
+[25.252194] (-) TimerEvent: {}
+[25.352798] (-) TimerEvent: {}
+[25.453591] (-) TimerEvent: {}
+[25.553924] (-) TimerEvent: {}
+[25.655837] (-) TimerEvent: {}
+[25.757102] (-) TimerEvent: {}
+[25.858245] (-) TimerEvent: {}
+[25.959679] (-) TimerEvent: {}
+[26.060346] (-) TimerEvent: {}
+[26.161337] (-) TimerEvent: {}
+[26.262572] (-) TimerEvent: {}
+[26.364199] (-) TimerEvent: {}
+[26.464953] (-) TimerEvent: {}
+[26.565597] (-) TimerEvent: {}
+[26.666545] (-) TimerEvent: {}
+[26.767411] (-) TimerEvent: {}
+[26.868232] (-) TimerEvent: {}
+[26.968777] (-) TimerEvent: {}
+[27.069435] (-) TimerEvent: {}
+[27.170071] (-) TimerEvent: {}
+[27.270996] (-) TimerEvent: {}
+[27.371896] (-) TimerEvent: {}
+[27.472859] (-) TimerEvent: {}
+[27.574666] (-) TimerEvent: {}
+[27.676080] (-) TimerEvent: {}
+[27.777394] (-) TimerEvent: {}
+[27.877953] (-) TimerEvent: {}
+[27.978728] (-) TimerEvent: {}
+[28.080110] (-) TimerEvent: {}
+[28.181304] (-) TimerEvent: {}
+[28.281841] (-) TimerEvent: {}
+[28.384565] (-) TimerEvent: {}
+[28.485885] (-) TimerEvent: {}
+[28.587357] (-) TimerEvent: {}
+[28.596982] (custom_vtol_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller_plugin.so\x1b[0m\n'}
+[28.688024] (-) TimerEvent: {}
+[28.789309] (-) TimerEvent: {}
+[28.890601] (-) TimerEvent: {}
+[28.992246] (-) TimerEvent: {}
+[29.092805] (-) TimerEvent: {}
+[29.194180] (-) TimerEvent: {}
+[29.294759] (-) TimerEvent: {}
+[29.395768] (-) TimerEvent: {}
+[29.496308] (-) TimerEvent: {}
+[29.596803] (-) TimerEvent: {}
+[29.698734] (-) TimerEvent: {}
+[29.733630] (custom_vtol_plugin) StdoutLine: {'line': b'[100%] Built target motor_controller_plugin\n'}
+[29.749737] (custom_vtol_plugin) CommandEnded: {'returncode': 0}
+[29.751516] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'install'}
+[29.764606] (custom_vtol_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parsa/ws_ros2/build/custom_vtol_plugin'], 'cwd': '/home/parsa/ws_ros2/build/custom_vtol_plugin', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parsa'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parsa/ws_ros2/install/px4_ros_com/lib:/home/parsa/ws_ros2/install/px4_msgs/lib:/home/parsa/ws_ros2/install/custom_vtol_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parsa'), ('OLDPWD', '/home/parsa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '841'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parsa/ws_ros2/install:/home/parsa/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parsa'), ('JOURNAL_STREAM', '8:5009'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parsa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/parsa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/parsa-VirtualBox:@/tmp/.ICE-unix/950,unix/parsa-VirtualBox:/tmp/.ICE-unix/950'), ('INVOCATION_ID', '69b59034b0c34342a4e6e45763253aaf'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('TILIX_ID', 'efedec70-8939-419c-a947-4168b0964177'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGS1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parsa/ws_ros2/build/custom_vtol_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parsa/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/parsa/.local/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7::/opt/ros/humble')]), 'shell': False}
+[29.775124] (custom_vtol_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.775677] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/rosidl_interfaces/custom_vtol_plugin\n'}
+[29.775975] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.776176] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.776385] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_c__visibility_control.h\n'}
+[29.776499] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.776583] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.h\n'}
+[29.776665] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.h\n'}
+[29.776812] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.c\n'}
+[29.776903] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__functions.h\n'}
+[29.776985] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.h\n'}
+[29.777066] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.sh\n'}
+[29.777305] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/library_path.dsv\n'}
+[29.777418] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_c.so\n'}
+[29.777877] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_c.so" to ""\n'}
+[29.778099] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.778296] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.778411] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.778493] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.778573] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[29.778733] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_c.so\n'}
+[29.778940] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[29.779344] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.779551] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.779734] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.779864] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp\n'}
+[29.780089] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp\n'}
+[29.780316] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp\n'}
+[29.780466] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp\n'}
+[29.780594] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.780676] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp\n'}
+[29.780756] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.780963] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.781132] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.781880] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/dds_fastrtps\n'}
+[29.781981] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.782070] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.782191] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.782415] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[29.782529] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.782797] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.783093] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.783370] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h\n'}
+[29.783511] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.c\n'}
+[29.783607] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.783786] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_c.so\n'}
+[29.783875] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_c.so" to ""\n'}
+[29.783957] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_c.so\n'}
+[29.784173] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_c.so" to ""\n'}
+[29.784460] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.784556] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.784639] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.784756] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.785180] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.cpp\n'}
+[29.785468] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_cpp.so\n'}
+[29.785562] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[29.785866] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_cpp.so\n'}
+[29.786464] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_typesupport_cpp.so" to ""\n'}
+[29.786661] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.sh\n'}
+[29.786927] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/pythonpath.dsv\n'}
+[29.787144] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info\n'}
+[29.787374] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[29.787482] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[29.787579] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[29.787661] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[29.787750] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin\n'}
+[29.787832] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[29.787913] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/libcustom_vtol_plugin__rosidl_generator_py.so\n'}
+[29.788023] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.788127] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_c.c\n'}
+[29.788333] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg\n'}
+[29.788844] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/__init__.py\n'}
+[29.789066] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands.py\n'}
+[29.789164] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands_s.c\n'}
+[29.789334] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/__init__.py\n'}
+[29.789428] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/_custom_vtol_plugin_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[29.789510] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.789594] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.798858] (-) TimerEvent: {}
+[29.849016] (custom_vtol_plugin) StdoutLine: {'line': b"Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin'...\n"}
+[29.849309] (custom_vtol_plugin) StdoutLine: {'line': b"Compiling '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/__init__.py'...\n"}
+[29.849444] (custom_vtol_plugin) StdoutLine: {'line': b"Listing '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg'...\n"}
+[29.849533] (custom_vtol_plugin) StdoutLine: {'line': b"Compiling '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/__init__.py'...\n"}
+[29.849615] (custom_vtol_plugin) StdoutLine: {'line': b"Compiling '/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/msg/_motor_commands.py'...\n"}
+[29.856973] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.857345] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.857627] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.858444] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.858669] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[29.858971] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages/custom_vtol_plugin/custom_vtol_plugin_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[29.859092] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_py.so\n'}
+[29.859766] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/libcustom_vtol_plugin__rosidl_generator_py.so" to ""\n'}
+[29.859969] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.idl\n'}
+[29.860062] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/msg/MotorCommands.msg\n'}
+[29.860147] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/libmotor_controller_plugin.so\n'}
+[29.872320] (custom_vtol_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/libmotor_controller_plugin.so" to ""\n'}
+[29.872527] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin\n'}
+[29.872622] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin\n'}
+[29.872708] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg\n'}
+[29.872869] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail\n'}
+[29.873053] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__struct.hpp\n'}
+[29.873302] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__builder.hpp\n'}
+[29.873409] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__type_support.hpp\n'}
+[29.873590] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/detail/motor_commands__traits.hpp\n'}
+[29.873701] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.874160] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/include/custom_vtol_plugin/custom_vtol_plugin/msg/motor_commands.hpp\n'}
+[29.874575] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin/hover_publisher.py\n'}
+[29.874824] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/package_run_dependencies/custom_vtol_plugin\n'}
+[29.875030] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/parent_prefix_path/custom_vtol_plugin\n'}
+[29.875192] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.sh\n'}
+[29.875292] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/ament_prefix_path.dsv\n'}
+[29.875371] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.sh\n'}
+[29.875452] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/environment/path.dsv\n'}
+[29.875530] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.bash\n'}
+[29.875608] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.sh\n'}
+[29.875686] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.zsh\n'}
+[29.875763] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/local_setup.dsv\n'}
+[29.875851] (custom_vtol_plugin) StdoutLine: {'line': b'-- Installing: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.dsv\n'}
+[29.875930] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/ament_index/resource_index/packages/custom_vtol_plugin\n'}
+[29.876007] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport.cmake\n'}
+[29.876127] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.876218] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[29.876426] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[29.876745] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_cppExport.cmake\n'}
+[29.876875] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[29.876994] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[29.877263] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.877455] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.877721] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport.cmake\n'}
+[29.877820] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.877901] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.878021] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.878144] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport.cmake\n'}
+[29.878279] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_plugin__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.878406] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport.cmake\n'}
+[29.878487] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/export_custom_vtol_plugin__rosidl_generator_pyExport-noconfig.cmake\n'}
+[29.878583] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake-extras.cmake\n'}
+[29.878676] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.878861] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.878942] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.879060] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.879142] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.879605] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.880112] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig.cmake\n'}
+[29.880410] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/cmake/custom_vtol_pluginConfig-version.cmake\n'}
+[29.880684] (custom_vtol_plugin) StdoutLine: {'line': b'-- Up-to-date: /home/parsa/ws_ros2/install/custom_vtol_plugin/share/custom_vtol_plugin/package.xml\n'}
+[29.882635] (custom_vtol_plugin) CommandEnded: {'returncode': 0}
+[29.900538] (-) TimerEvent: {}
+[29.916800] (custom_vtol_plugin) JobEnded: {'identifier': 'custom_vtol_plugin', 'rc': 0}
+[29.917596] (-) EventReactorShutdown: {}

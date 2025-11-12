@@ -1,0 +1,1148 @@
+[0.000000] (-) TimerEvent: {}
+[0.003674] (-) JobUnselected: {'identifier': 'custom_bridge_cpp'}
+[0.003727] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.003761] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.003794] (custom_vtol_plugin) JobQueued: {'identifier': 'custom_vtol_plugin', 'dependencies': OrderedDict()}
+[0.003827] (custom_vtol_plugin) JobStarted: {'identifier': 'custom_vtol_plugin'}
+[0.015221] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'cmake'}
+[0.018426] (custom_vtol_plugin) JobProgress: {'identifier': 'custom_vtol_plugin', 'progress': 'build'}
+[0.018518] (custom_vtol_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parsa/ws_ros2/build/custom_vtol_plugin', '--', '-j5', '-l5'], 'cwd': '/home/parsa/ws_ros2/build/custom_vtol_plugin', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/parsa/ws_ros2/install/custom_vtol_plugin/lib/custom_vtol_plugin'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parsa'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/parsa/ws_ros2/install/px4_ros_com/lib:/home/parsa/ws_ros2/install/px4_msgs/lib:/home/parsa/ws_ros2/install/custom_vtol_plugin/lib:/home/parsa/install/custom_vtol_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parsa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('MANAGERPID', '841'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parsa/ws_ros2/install:/home/parsa/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parsa'), ('JOURNAL_STREAM', '8:5009'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parsa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/parsa/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/parsa-VirtualBox:@/tmp/.ICE-unix/950,unix/parsa-VirtualBox:/tmp/.ICE-unix/950'), ('INVOCATION_ID', '69b59034b0c34342a4e6e45763253aaf'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('TILIX_ID', '599ba18c-d297-46b1-99a8-f38db7e69a81'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VGS1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/home/parsa/ws_ros2/install/custom_bridge_cpp:/home/parsa/install/custom_vtol_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parsa/ws_ros2/build/custom_vtol_plugin'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6cddcfe1d9928c92d9d7056369132ac2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parsa/ws_ros2/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/px4_msgs/local/lib/python3.10/dist-packages:/home/parsa/ws_ros2/install/custom_vtol_plugin/local/lib/python3.10/dist-packages:/home/parsa/install/custom_vtol_plugin/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/parsa/.local/lib/python3.10/site-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parsa/ws_ros2/install/px4_ros_com:/home/parsa/ws_ros2/install/px4_msgs:/home/parsa/ws_ros2/install/custom_vtol_plugin:/home/parsa/ws_ros2/install/custom_bridge_cpp:/home/parsa/install/custom_vtol_plugin:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7:/usr/lib/x86_64-linux-gnu/cmake/gz-sim7:/usr/lib/x86_64-linux-gnu/cmake/gz-sensors7::/opt/ros/humble')]), 'shell': False}
+[0.097780] (-) TimerEvent: {}
+[0.147675] (custom_vtol_plugin) StdoutLine: {'line': b'[  3%] Built target custom_vtol_plugin__cpp\n'}
+[0.197893] (-) TimerEvent: {}
+[0.214951] (custom_vtol_plugin) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_custom_vtol_plugin\n'}
+[0.268104] (custom_vtol_plugin) StdoutLine: {'line': b'[ 12%] Built target custom_vtol_plugin__rosidl_typesupport_introspection_cpp\n'}
+[0.298018] (-) TimerEvent: {}
+[0.399021] (-) TimerEvent: {}
+[0.499543] (-) TimerEvent: {}
+[0.600958] (-) TimerEvent: {}
+[0.701310] (-) TimerEvent: {}
+[0.702463] (custom_vtol_plugin) StdoutLine: {'line': b'running egg_info\n'}
+[0.730029] (custom_vtol_plugin) StdoutLine: {'line': b'writing custom_vtol_plugin.egg-info/PKG-INFO\n'}
+[0.730292] (custom_vtol_plugin) StdoutLine: {'line': b'writing dependency_links to custom_vtol_plugin.egg-info/dependency_links.txt\n'}
+[0.730501] (custom_vtol_plugin) StdoutLine: {'line': b'writing top-level names to custom_vtol_plugin.egg-info/top_level.txt\n'}
+[0.801482] (-) TimerEvent: {}
+[0.810680] (custom_vtol_plugin) StdoutLine: {'line': b"reading manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'\n"}
+[0.811682] (custom_vtol_plugin) StdoutLine: {'line': b"writing manifest file 'custom_vtol_plugin.egg-info/SOURCES.txt'\n"}
+[0.855855] (custom_vtol_plugin) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_custom_vtol_plugin_egg\n'}
+[0.900332] (custom_vtol_plugin) StdoutLine: {'line': b'[ 21%] Built target custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp\n'}
+[0.901544] (-) TimerEvent: {}
+[0.953429] (custom_vtol_plugin) StdoutLine: {'line': b'[ 30%] Built target custom_vtol_plugin__rosidl_typesupport_cpp\n'}
+[1.001697] (-) TimerEvent: {}
+[1.007958] (custom_vtol_plugin) StdoutLine: {'line': b'[ 39%] Built target custom_vtol_plugin__rosidl_generator_c\n'}
+[1.060189] (custom_vtol_plugin) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o\x1b[0m\n'}
+[1.102094] (-) TimerEvent: {}
+[1.202893] (-) TimerEvent: {}
+[1.303585] (-) TimerEvent: {}
+[1.404521] (-) TimerEvent: {}
+[1.506195] (-) TimerEvent: {}
+[1.607643] (-) TimerEvent: {}
+[1.708393] (-) TimerEvent: {}
+[1.811301] (-) TimerEvent: {}
+[1.911602] (-) TimerEvent: {}
+[2.012082] (-) TimerEvent: {}
+[2.021380] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:1:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.021648] (custom_vtol_plugin) StderrLine: {'line': b'    1 | \x1b[01;31m\x1b[K<\x1b[m\x1b[K// src/motor_controller_plugin.cpp\n'}
+[2.021748] (custom_vtol_plugin) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.025412] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:62\x1b[m\x1b[K,\n'}
+[2.025847] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.025950] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.026145] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.026568] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.027388] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/type_traits.h:162:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool __gnu_cxx::__is_null_pointer\x1b[m\x1b[K\xe2\x80\x99 redeclared as different kind of entity\n'}
+[2.028537] (custom_vtol_plugin) StderrLine: {'line': b'  162 |   __is_null_pointer(std::nullptr_t\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.029308] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.029701] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/type_traits.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Type> bool __gnu_cxx::__is_null_pointer(_Type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.030321] (custom_vtol_plugin) StderrLine: {'line': b'  157 |     \x1b[01;36m\x1b[K__is_null_pointer\x1b[m\x1b[K(_Type)\n'}
+[2.030505] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.031064] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/type_traits.h:162:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knullptr_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.031430] (custom_vtol_plugin) StderrLine: {'line': b'  162 |   __is_null_pointer(std::\x1b[01;31m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[2.032321] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.032439] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[2.032563] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.032655] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.032750] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.032830] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.032958] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.033062] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.033143] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:227:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.033222] (custom_vtol_plugin) StderrLine: {'line': b'  227 |   template <typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K = sizeof(_Tp)>\n'}
+[2.033353] (custom_vtol_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.033519] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:431:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.033617] (custom_vtol_plugin) StderrLine: {'line': b'  431 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[2.033705] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.033784] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:432:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.033861] (custom_vtol_plugin) StderrLine: {'line': b'  432 |     struct is_array<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[2.033937] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.034013] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:432:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.034099] (custom_vtol_plugin) StderrLine: {'line': b'  432 |     struct is_array<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.034225] (custom_vtol_plugin) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.034308] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:537:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knullptr_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.037761] (custom_vtol_plugin) StderrLine: {'line': b'  537 | uct __is_null_pointer_helper<std::\x1b[01;31m\x1b[Knullptr_t\x1b[m\x1b[K>\n'}
+[2.038547] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.039476] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.039960] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:537:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.040271] (custom_vtol_plugin) StderrLine: {'line': b'  537 | uct __is_null_pointer_helper<std::nullptr_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.040653] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.040740] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.040816] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.041762] (custom_vtol_plugin) StderrLine: {'line': b' 1361 |  : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, alignof(_Tp)>\n'}
+[2.041858] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.042299] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.042513] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.042599] (custom_vtol_plugin) StderrLine: {'line': b' 1361 | integral_constant<std::size_t, alignof(_Tp)\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.043149] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.043307] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.044369] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1361:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.044625] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.045022] (custom_vtol_plugin) StderrLine: {'line': b' 1370 |  : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 0> { };\n'}
+[2.045115] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.045476] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.045626] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.045730] (custom_vtol_plugin) StderrLine: {'line': b' 1370 | ublic integral_constant<std::size_t, 0\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[2.045884] (custom_vtol_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.045965] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.046232] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1370:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.046353] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1372:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.046441] (custom_vtol_plugin) StderrLine: {'line': b' 1372 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[2.046526] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.046612] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1373:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.046696] (custom_vtol_plugin) StderrLine: {'line': b' 1373 |     struct rank<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[2.046780] (custom_vtol_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.046861] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1373:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.047109] (custom_vtol_plugin) StderrLine: {'line': b' 1373 |     struct rank<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.047914] (custom_vtol_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.048170] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.048615] (custom_vtol_plugin) StderrLine: {'line': b' 1374 |  : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 1 + rank<_Tp>::value> { };\n'}
+[2.048710] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.048876] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.048966] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.049052] (custom_vtol_plugin) StderrLine: {'line': b' 1374 | tant<std::size_t, 1 + rank<_Tp>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[2.049912] (custom_vtol_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.050028] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.050188] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1374:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.050342] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.050512] (custom_vtol_plugin) StderrLine: {'line': b' 1378 |  : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 1 + rank<_Tp>::value> { };\n'}
+[2.050600] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.050923] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.052356] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.052520] (custom_vtol_plugin) StderrLine: {'line': b' 1378 | tant<std::size_t, 1 + rank<_Tp>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[2.052610] (custom_vtol_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.052701] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.052781] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1378:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.052867] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.052947] (custom_vtol_plugin) StderrLine: {'line': b' 1383 |  : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, 0> { };\n'}
+[2.053080] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.053266] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.053381] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.053460] (custom_vtol_plugin) StderrLine: {'line': b' 1383 | ublic integral_constant<std::size_t, 0\x1b[01;31m\x1b[K>\x1b[m\x1b[K { };\n'}
+[2.053535] (custom_vtol_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.053609] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.053682] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1383:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.053756] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1385:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.053841] (custom_vtol_plugin) StderrLine: {'line': b' 1385 | te<typename _Tp, unsigned _Uint, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[2.053916] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.054023] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.054112] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1386:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.054228] (custom_vtol_plugin) StderrLine: {'line': b' 1386 |     struct extent<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K], _Uint>\n'}
+[2.057955] (custom_vtol_plugin) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.059114] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1386:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.059320] (custom_vtol_plugin) StderrLine: {'line': b' 1386 |     struct extent<_Tp[_Size], _Uint\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.059463] (custom_vtol_plugin) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.060187] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1387:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.060371] (custom_vtol_plugin) StderrLine: {'line': b' 1387 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K,\n'}
+[2.060514] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.060656] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1388:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.060755] (custom_vtol_plugin) StderrLine: {'line': b' 1388 |                     _Uint == 0 ? \x1b[01;31m\x1b[K_Size\x1b[m\x1b[K : extent<_Tp,\n'}
+[2.060843] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.060971] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.061052] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1389:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.061129] (custom_vtol_plugin) StderrLine: {'line': b' 1389 |                           _Uint - 1>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.061250] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.061396] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.061477] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1389:77:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.061553] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1394:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.061630] (custom_vtol_plugin) StderrLine: {'line': b' 1394 |     : public integral_constant<std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K,\n'}
+[2.061705] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.061779] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1396:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.061864] (custom_vtol_plugin) StderrLine: {'line': b' 1396 |                           _Uint - 1>::value\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.065602] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.066196] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.066797] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1396:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.066957] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1759:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.067318] (custom_vtol_plugin) StderrLine: {'line': b' 1759 |       { static constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __size = sizeof(_Tp); };\n'}
+[2.067458] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.067563] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[2.068090] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.068243] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.068434] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.068547] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.068650] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.068863] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.068973] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.069083] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.069272] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // C++11 <type_traits> -*- C++ -*-\n'}
+[2.069386] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[2.069487] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.072781] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.073103] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.073272] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.073800] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.073920] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.074024] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.077781] (custom_vtol_plugin) StderrLine: {'line': b' 1761 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Tp, bool = (_Sz <= _Tp::__size)>\n'}
+[2.077990] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.078099] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.078332] (custom_vtol_plugin) StderrLine: {'line': b' 1761 | ize_t _Sz, typename _Tp, bool = (\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K <= _Tp::__size)>\n'}
+[2.078456] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.078585] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.078662] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1762:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno default argument for \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.078739] (custom_vtol_plugin) StderrLine: {'line': b' 1762 |       struct \x1b[01;31m\x1b[K__select\x1b[m\x1b[K;\n'}
+[2.078814] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.078887] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1764:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.078963] (custom_vtol_plugin) StderrLine: {'line': b' 1764 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Uint, typename... _UInts>\n'}
+[2.079037] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.079111] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1765:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.079184] (custom_vtol_plugin) StderrLine: {'line': b' 1765 |       struct __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_Uint, _UInts...>, true>\n'}
+[2.079312] (custom_vtol_plugin) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.079436] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1765:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.079562] (custom_vtol_plugin) StderrLine: {'line': b' 1765 | __select<_Sz, _List<_Uint, _UInts...>, true\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.079642] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.079723] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.079800] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1768:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.079873] (custom_vtol_plugin) StderrLine: {'line': b' 1768 |     template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Sz, typename _Uint, typename... _UInts>\n'}
+[2.079945] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.080026] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1769:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.080185] (custom_vtol_plugin) StderrLine: {'line': b' 1769 |       struct __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_Uint, _UInts...>, false>\n'}
+[2.080338] (custom_vtol_plugin) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.080484] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1769:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.081614] (custom_vtol_plugin) StderrLine: {'line': b' 1769 | _select<_Sz, _List<_Uint, _UInts...>, false\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.082005] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.082297] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.083470] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1770:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Sz\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.083660] (custom_vtol_plugin) StderrLine: {'line': b' 1770 |       : __select<\x1b[01;31m\x1b[K_Sz\x1b[m\x1b[K, _List<_UInts...>>\n'}
+[2.083765] (custom_vtol_plugin) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.083974] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1770:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.084113] (custom_vtol_plugin) StderrLine: {'line': b' 1770 |       : __select<_Sz, _List<_UInts...\x1b[01;31m\x1b[K>>\x1b[m\x1b[K\n'}
+[2.084238] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.084807] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1761:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__size\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd::__make_unsigned_selector_base::_List<unsigned char, short unsigned int, unsigned int, long unsigned int, long long unsigned int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.084920] (custom_vtol_plugin) StderrLine: {'line': b' 1761 | , typename _Tp, bool = (_Sz <= _Tp::\x1b[01;31m\x1b[K__size\x1b[m\x1b[K)>\n'}
+[2.085003] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.085081] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.085156] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1783:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[2.085232] (custom_vtol_plugin) StderrLine: {'line': b' 1783 | ename __select<sizeof(_Tp), _UInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type;\n'}
+[2.085691] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.085805] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.085983] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1787:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__unsigned_type\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.086110] (custom_vtol_plugin) StderrLine: {'line': b' 1787 | ename __match_cv_qualifiers<_Tp, \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K>::__type;\n'}
+[2.086202] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.086339] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.086437] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1787:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.086514] (custom_vtol_plugin) StderrLine: {'line': b' 1787 | cv_qualifiers<_Tp, __unsigned_type\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type;\n'}
+[2.086587] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.086660] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.086744] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1799:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<wchar_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.086854] (custom_vtol_plugin) StderrLine: {'line': b' 1799 | gned_selector<wchar_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.087023] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.087472] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.087597] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1816:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char16_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.087729] (custom_vtol_plugin) StderrLine: {'line': b' 1816 | ned_selector<char16_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.087824] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.087910] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.087985] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1823:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char32_t, false, true>\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.088065] (custom_vtol_plugin) StderrLine: {'line': b' 1823 | ned_selector<char32_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.088268] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.090159] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.090410] (custom_vtol_plugin) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<wchar_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.090585] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<wchar_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.090750] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1927:57:\x1b[m\x1b[K   required from here\n'}
+[2.090879] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<wchar_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.091021] (custom_vtol_plugin) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[2.091130] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.091361] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<wchar_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.091476] (custom_vtol_plugin) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[2.091566] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.091652] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1927:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[2.091735] (custom_vtol_plugin) StderrLine: {'line': b' 1927 | gned_selector<wchar_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.091820] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.091900] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.091982] (custom_vtol_plugin) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char16_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.095111] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<char16_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.095470] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1944:58:\x1b[m\x1b[K   required from here\n'}
+[2.095577] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char16_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.095671] (custom_vtol_plugin) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[2.095755] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.095829] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char16_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.095905] (custom_vtol_plugin) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[2.096068] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.096181] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1944:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[2.096321] (custom_vtol_plugin) StderrLine: {'line': b' 1944 | ned_selector<char16_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.096402] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.096474] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.096546] (custom_vtol_plugin) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_unsigned_selector<char32_t, true, false>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.096618] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1912:62:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::__make_signed_selector<char32_t, false, true>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.096690] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1951:58:\x1b[m\x1b[K   required from here\n'}
+[2.096761] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1744:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char32_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.096847] (custom_vtol_plugin) StderrLine: {'line': b' 1744 |       using \x1b[01;31m\x1b[K__unsigned_type\x1b[m\x1b[K\n'}
+[2.096920] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096991] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1748:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[K__type\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::__make_unsigned<char32_t>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.097134] (custom_vtol_plugin) StderrLine: {'line': b' 1748 |       using \x1b[01;31m\x1b[K__type\x1b[m\x1b[K\n'}
+[2.097214] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.097409] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1951:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid combination of multiple type-specifiers\n'}
+[2.097546] (custom_vtol_plugin) StderrLine: {'line': b' 1951 | ned_selector<char32_t, false, true>::\x1b[01;31m\x1b[K__type\x1b[m\x1b[K;\n'}
+[2.098188] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.098301] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.098734] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1984:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.098946] (custom_vtol_plugin) StderrLine: {'line': b' 1984 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[2.099990] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.100106] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1985:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.100184] (custom_vtol_plugin) StderrLine: {'line': b' 1985 |     struct remove_extent<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[2.100262] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.100346] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1985:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.100691] (custom_vtol_plugin) StderrLine: {'line': b' 1985 |     struct remove_extent<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.100813] (custom_vtol_plugin) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.100890] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1997:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.101013] (custom_vtol_plugin) StderrLine: {'line': b' 1997 |   template<typename _Tp, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Size>\n'}
+[2.101142] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.101319] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1998:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.101402] (custom_vtol_plugin) StderrLine: {'line': b' 1998 |     struct remove_all_extents<_Tp[\x1b[01;31m\x1b[K_Size\x1b[m\x1b[K]>\n'}
+[2.101982] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.102088] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:1998:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.102165] (custom_vtol_plugin) StderrLine: {'line': b' 1998 |     struct remove_all_extents<_Tp[_Size]\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.102637] (custom_vtol_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.102737] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2056:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.102823] (custom_vtol_plugin) StderrLine: {'line': b' 2056 |   template<\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Len>\n'}
+[2.102929] (custom_vtol_plugin) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.103074] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2061:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.103191] (custom_vtol_plugin) StderrLine: {'line': b' 2061 |         unsigned char __data[\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K];\n'}
+[2.103442] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.103543] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2076:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.103645] (custom_vtol_plugin) StderrLine: {'line': b' 2076 |   template<\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Len, std::size_t _Align =\n'}
+[2.103746] (custom_vtol_plugin) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.103876] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2076:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.103994] (custom_vtol_plugin) StderrLine: {'line': b' 2076 |   template<std::size_t _Len, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t _Align =\n'}
+[2.104089] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.104442] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2077:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.104555] (custom_vtol_plugin) StderrLine: {'line': b' 2077 | _(typename __aligned_storage_msa<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K>::__type)>\n'}
+[2.104657] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.104754] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.104928] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2077:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.105118] (custom_vtol_plugin) StderrLine: {'line': b' 2077 | pename __aligned_storage_msa<_Len\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type)>\n'}
+[2.105787] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105986] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.106091] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2082:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.106668] (custom_vtol_plugin) StderrLine: {'line': b' 2082 |         unsigned char __data[\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K];\n'}
+[2.106904] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.107027] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2083:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Align\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.110134] (custom_vtol_plugin) StderrLine: {'line': b' 2083 | ruct __attribute__((__aligned__((\x1b[01;31m\x1b[K_Align\x1b[m\x1b[K)))) { } __align;\n'}
+[2.110362] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.110458] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.110534] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2090:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.110611] (custom_vtol_plugin) StderrLine: {'line': b' 2090 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_alignment = 0;\n'}
+[2.110713] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.110805] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2090:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.110902] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2091:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.110977] (custom_vtol_plugin) StderrLine: {'line': b' 2091 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_size = 0;\n'}
+[2.111059] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.111715] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2091:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.111894] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2097:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.111975] (custom_vtol_plugin) StderrLine: {'line': b' 2097 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_alignment =\n'}
+[2.112050] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.112120] (-) TimerEvent: {}
+[2.112874] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2097:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.113080] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2100:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.113222] (custom_vtol_plugin) StderrLine: {'line': b' 2100 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_size =\n'}
+[2.113321] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.113396] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2100:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.113472] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2115:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.113545] (custom_vtol_plugin) StderrLine: {'line': b' 2115 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[2.113643] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.113728] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2122:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.113801] (custom_vtol_plugin) StderrLine: {'line': b' 2122 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _S_len = _Len > __strictest::_S_size\n'}
+[2.113877] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.113954] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2122:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.114047] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2126:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.114131] (custom_vtol_plugin) StderrLine: {'line': b' 2126 |       static const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K alignment_value = __strictest::_S_alignment;\n'}
+[2.114212] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.114501] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2126:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.114603] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_S_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.114694] (custom_vtol_plugin) StderrLine: {'line': b' 2128 | typedef typename aligned_storage<\x1b[01;31m\x1b[K_S_len\x1b[m\x1b[K, alignment_value>::type type;\n'}
+[2.114769] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.114842] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.114922] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kalignment_value\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kalignment_of\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.114997] (custom_vtol_plugin) StderrLine: {'line': b' 2128 | typename aligned_storage<_S_len, \x1b[01;31m\x1b[Kalignment_value\x1b[m\x1b[K>::type type;\n'}
+[2.115592] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.115693] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Kalignment_of\x1b[m\x1b[K\n'}
+[2.115769] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.115852] (custom_vtol_plugin) StderrLine: {'line': b' 2128 | d_storage<_S_len, alignment_value\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type type;\n'}
+[2.115931] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.116009] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.116082] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2128:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.116165] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2131:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.116238] (custom_vtol_plugin) StderrLine: {'line': b' 2131 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[2.116695] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.116874] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2132:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.116965] (custom_vtol_plugin) StderrLine: {'line': b' 2132 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K aligned_union<_Len, _Types...>::alignment_value;\n'}
+[2.117081] (custom_vtol_plugin) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.117157] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2132:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.117304] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2566:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.117412] (custom_vtol_plugin) StderrLine: {'line': b' 2566 |   template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, size_t _Align =\n'}
+[2.117769] (custom_vtol_plugin) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.117887] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2566:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.118047] (custom_vtol_plugin) StderrLine: {'line': b' 2566 |   template<size_t _Len, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Align =\n'}
+[2.118263] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.118401] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2567:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.118563] (custom_vtol_plugin) StderrLine: {'line': b' 2567 | _(typename __aligned_storage_msa<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K>::__type)>\n'}
+[2.118677] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.118769] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.119399] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2567:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.119531] (custom_vtol_plugin) StderrLine: {'line': b' 2567 | pename __aligned_storage_msa<_Len\x1b[01;31m\x1b[K>\x1b[m\x1b[K::__type)>\n'}
+[2.119611] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.119683] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.119754] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.119828] (custom_vtol_plugin) StderrLine: {'line': b' 2568 | age_t = typename aligned_storage<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K, _Align>::type;\n'}
+[2.119902] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.119973] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.120052] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Align\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.120125] (custom_vtol_plugin) StderrLine: {'line': b' 2568 | = typename aligned_storage<_Len, \x1b[01;31m\x1b[K_Align\x1b[m\x1b[K>::type;\n'}
+[2.120207] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.120288] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.120902] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.121032] (custom_vtol_plugin) StderrLine: {'line': b' 2568 | ypename aligned_storage<_Len, _Align\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type;\n'}
+[2.121117] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.121343] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.121498] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2568:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.122342] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2570:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.122471] (custom_vtol_plugin) StderrLine: {'line': b' 2570 |   template <\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Len, typename... _Types>\n'}
+[2.122552] (custom_vtol_plugin) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.122688] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2571:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.122769] (custom_vtol_plugin) StderrLine: {'line': b' 2571 | union_t = typename aligned_union<\x1b[01;31m\x1b[K_Len\x1b[m\x1b[K, _Types...>::type;\n'}
+[2.122844] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.122917] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.122990] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2571:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.123675] (custom_vtol_plugin) StderrLine: {'line': b' 2571 | pename aligned_union<_Len, _Types...\x1b[01;31m\x1b[K>\x1b[m\x1b[K::type;\n'}
+[2.123810] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.123903] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.123980] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2680:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.124060] (custom_vtol_plugin) StderrLine: {'line': b' 2680 |   template<typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Nm>\n'}
+[2.124136] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.125771] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.125980] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[2.126096] (custom_vtol_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.126184] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, <declaration error> > std::__enable_if_t<std::__is_swappable<_Tp>::value> std::swap\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[2.126280] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm\x1b[01;31m\x1b[K]\x1b[m\x1b[K, _Tp (&__b)[_Nm])\n'}
+[2.126467] (custom_vtol_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.126607] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2676:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.126743] (custom_vtol_plugin) StderrLine: {'line': b' 2676 |     \x1b[01;36m\x1b[Kswap\x1b[m\x1b[K(_Tp&, _Tp&)\n'}
+[2.127433] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.127528] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__a\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.127857] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&\x1b[01;31m\x1b[K__a\x1b[m\x1b[K)[_Nm], _Tp (&__b)[_Nm])\n'}
+[2.127966] (custom_vtol_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.128045] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.128122] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[2.128650] (custom_vtol_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.129622] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__b\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.129745] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&\x1b[01;31m\x1b[K__b\x1b[m\x1b[K)[_Nm])\n'}
+[2.129825] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.129901] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.129979] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K])\n'}
+[2.130063] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.130137] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2684:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knoexcept\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.130254] (custom_vtol_plugin) StderrLine: {'line': b' 2684 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])\n'}
+[2.130352] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.130432] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.131069] (custom_vtol_plugin) StderrLine: {'line': b' 2685 |     \x1b[32m\x1b[Knoexcept\x1b[m\x1b[K(__is_nothrow_swappable<_Tp>::value);\n'}
+[2.131218] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K                               \n'}
+[2.137788] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3244:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.138243] (custom_vtol_plugin) StderrLine: {'line': b' 3244 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K alignment_of_v = alignment_of<_Tp>::value;\n'}
+[2.138376] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.138459] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3244:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.138560] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3246:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.138639] (custom_vtol_plugin) StderrLine: {'line': b' 3246 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K rank_v = rank<_Tp>::value;\n'}
+[2.138714] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.138788] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3246:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.138866] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3248:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.138944] (custom_vtol_plugin) StderrLine: {'line': b' 3248 |   inline constexpr \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K extent_v = extent<_Tp, _Idx>::value;\n'}
+[2.139270] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.139497] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:3248:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.139722] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.141992] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.142184] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.142276] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.142354] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.142443] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.142778] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:212:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.143014] (custom_vtol_plugin) StderrLine: {'line': b'  212 |   template<typename _Tp, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _Nm>\n'}
+[2.143118] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.143198] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.143277] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[2.143411] (custom_vtol_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.144050] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, <declaration error> > typename std::enable_if<std::__is_swappable<_Tp>::value, void>::type std::swap\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[2.144157] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm\x1b[01;31m\x1b[K]\x1b[m\x1b[K, _Tp (&__b)[_Nm])\n'}
+[2.144243] (custom_vtol_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.144330] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:196:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.144412] (custom_vtol_plugin) StderrLine: {'line': b'  196 |     \x1b[01;36m\x1b[Kswap\x1b[m\x1b[K(_Tp& __a, _Tp& __b)\n'}
+[2.144497] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.144634] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__a\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.144716] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&\x1b[01;31m\x1b[K__a\x1b[m\x1b[K)[_Nm], _Tp (&__b)[_Nm])\n'}
+[2.144799] (custom_vtol_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.144984] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.145108] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K], _Tp (&__b)[_Nm])\n'}
+[2.145249] (custom_vtol_plugin) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.145385] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__b\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.145506] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&\x1b[01;31m\x1b[K__b\x1b[m\x1b[K)[_Nm])\n'}
+[2.145634] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.146242] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Nm\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.146374] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[\x1b[01;31m\x1b[K_Nm\x1b[m\x1b[K])\n'}
+[2.146568] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.146651] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:220:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knoexcept\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.146729] (custom_vtol_plugin) StderrLine: {'line': b'  220 |     swap(_Tp (&__a)[_Nm], _Tp (&__b)[_Nm])\n'}
+[2.146838] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.146920] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.147033] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.147123] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.147692] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.147877] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.147987] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.148085] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:92:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.148267] (custom_vtol_plugin) StderrLine: {'line': b'   92 |   template<\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K...>\n'}
+[2.148464] (custom_vtol_plugin) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.148828] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:449:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.148962] (custom_vtol_plugin) StderrLine: {'line': b'  449 |     template<typename... _Args1, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K... _Indexes1,\n'}
+[2.149062] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.149148] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.149328] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:450:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.149430] (custom_vtol_plugin) StderrLine: {'line': b'  450 |              typename... _Args2, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K... _Indexes2>\n'}
+[2.149919] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.150095] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.153318] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Indexes1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.153498] (custom_vtol_plugin) StderrLine: {'line': b'  453 |              _Index_tuple<\x1b[01;31m\x1b[K_Indexes1\x1b[m\x1b[K...>, _Index_tuple<_Indexes2...>);\n'}
+[2.154004] (custom_vtol_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.154247] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.154355] (custom_vtol_plugin) StderrLine: {'line': b'  453 |            _Index_tuple<_Indexes1\x1b[01;31m\x1b[K...\x1b[m\x1b[K>, _Index_tuple<_Indexes2...>);\n'}
+[2.154432] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.154506] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.154578] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.154691] (custom_vtol_plugin) StderrLine: {'line': b'  453 |         _Index_tuple<_Indexes1...\x1b[01;31m\x1b[K>\x1b[m\x1b[K, _Index_tuple<_Indexes2...>);\n'}
+[2.154765] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.154836] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.158290] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Indexes2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.158463] (custom_vtol_plugin) StderrLine: {'line': b'  453 | uple<_Indexes1...>, _Index_tuple<\x1b[01;31m\x1b[K_Indexes2\x1b[m\x1b[K...>);\n'}
+[2.158633] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.158737] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.158813] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected parameter pack before \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.158930] (custom_vtol_plugin) StderrLine: {'line': b'  453 | <_Indexes1...>, _Index_tuple<_Indexes2\x1b[01;31m\x1b[K...\x1b[m\x1b[K>);\n'}
+[2.159008] (custom_vtol_plugin) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.159080] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.159245] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:453:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.159359] (custom_vtol_plugin) StderrLine: {'line': b'  453 | <_Indexes1...>, _Index_tuple<_Indexes2...\x1b[01;31m\x1b[K>\x1b[m\x1b[K);\n'}
+[2.159435] (custom_vtol_plugin) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.159571] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.160444] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:65\x1b[m\x1b[K,\n'}
+[2.160738] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.160859] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.160964] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.161103] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.161784] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:125:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.162237] (custom_vtol_plugin) StderrLine: {'line': b'  125 | ypename _Tp, typename _Distance = \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K,\n'}
+[2.162368] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.162497] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.162592] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:65\x1b[m\x1b[K,\n'}
+[2.162680] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.162784] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.162883] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.163049] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.163301] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.163899] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.164066] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // Types used in iterator implementation -*- C++ -*-\n'}
+[2.164147] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:65\x1b[m\x1b[K,\n'}
+[2.164264] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.165007] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.165587] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.165697] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.165841] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:214:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.165970] (custom_vtol_plugin) StderrLine: {'line': b'  214 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K                   difference_type;\n'}
+[2.166297] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.166501] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:214:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.166595] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:225:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.166674] (custom_vtol_plugin) StderrLine: {'line': b'  225 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K                   difference_type;\n'}
+[2.166764] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.166838] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_types.h:225:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.166914] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:66\x1b[m\x1b[K,\n'}
+[2.166988] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.167060] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.167132] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.167209] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.167944] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:110:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.168050] (custom_vtol_plugin) StderrLine: {'line': b'  110 |     \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K\n'}
+[2.168141] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.168237] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:66:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.168366] (custom_vtol_plugin) StderrLine: {'line': b'   65 | #include <debug/assertions.h>\n'}
+[2.168509] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.168607] (custom_vtol_plugin) StderrLine: {'line': b'   66 | \n'}
+[2.168689] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:116:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.168775] (custom_vtol_plugin) StderrLine: {'line': b'  116 |     \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K\n'}
+[2.168854] (custom_vtol_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.168938] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator_base_funcs.h:116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.169024] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:67\x1b[m\x1b[K,\n'}
+[2.169105] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[2.169187] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.169812] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.169936] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.170027] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.170111] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ptr_traits.h:119:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.170288] (custom_vtol_plugin) StderrLine: {'line': b'  119 |         = __detected_or_t<\x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K, __difference_type, _Ptr>;\n'}
+[2.170384] (custom_vtol_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.170462] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ptr_traits.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.170543] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.170627] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // Pointer Traits -*- C++ -*-\n'}
+[2.170702] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ptr_traits.h:119:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.170874] (custom_vtol_plugin) StderrLine: {'line': b'  119 | ed_or_t<ptrdiff_t, __difference_type, _Ptr\x1b[01;31m\x1b[K>\x1b[m\x1b[K;\n'}
+[2.170964] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.171057] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.171132] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ptr_traits.h:138:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.171241] (custom_vtol_plugin) StderrLine: {'line': b'  138 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K difference_type;\n'}
+[2.171332] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.171995] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ptr_traits.h:138:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.178380] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:63\x1b[m\x1b[K,\n'}
+[2.178691] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.178867] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.179036] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.179169] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:90:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.179278] (custom_vtol_plugin) StderrLine: {'line': b'   90 | * __first1, const _Up* __first2, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __num)\n'}
+[2.179354] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.179428] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.180184] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.180344] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:429:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.180428] (custom_vtol_plugin) StderrLine: {'line': b'  429 |           const \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K _Num = __last - __first;\n'}
+[2.180517] (custom_vtol_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.180593] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:72:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.180681] (custom_vtol_plugin) StderrLine: {'line': b'   71 | #include <bits/predefined_ops.h>\n'}
+[2.180764] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.180836] (custom_vtol_plugin) StderrLine: {'line': b'   72 | #if __cplusplus >= 201103L\n'}
+[2.182199] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:430:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Num\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.184182] (custom_vtol_plugin) StderrLine: {'line': b'  430 |           if (\x1b[01;31m\x1b[K_Num\x1b[m\x1b[K)\n'}
+[2.184310] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.185133] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:432:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Num\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.185285] (custom_vtol_plugin) StderrLine: {'line': b'  432 |           return __result + \x1b[01;31m\x1b[K_Num\x1b[m\x1b[K;\n'}
+[2.185375] (custom_vtol_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.192539] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic _Tp* std::__copy_move_backward<_IsMove, true, std::random_access_iterator_tag>::__copy_move_b(const _Tp*, const _Tp*, _Tp*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.192930] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:740:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.193077] (custom_vtol_plugin) StderrLine: {'line': b'  740 |           const \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K _Num = __last - __first;\n'}
+[2.193206] (custom_vtol_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.193370] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:740:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.194717] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:741:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Num\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.194953] (custom_vtol_plugin) StderrLine: {'line': b'  741 |           if (\x1b[01;31m\x1b[K_Num\x1b[m\x1b[K)\n'}
+[2.195075] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.199267] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:743:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_Num\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.200649] (custom_vtol_plugin) StderrLine: {'line': b'  743 |           return __result - \x1b[01;31m\x1b[K_Num\x1b[m\x1b[K;\n'}
+[2.200966] (custom_vtol_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.201085] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ktypename __gnu_cxx::__enable_if<std::__is_byte<_Tp>::__value, void>::__type std::__fill_a1(_Tp*, _Tp*, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.201210] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:943:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.201312] (custom_vtol_plugin) StderrLine: {'line': b'  943 |       if (const size_t \x1b[01;31m\x1b[K__len\x1b[m\x1b[K = __last - __first)\n'}
+[2.201481] (custom_vtol_plugin) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.201572] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:943:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.201660] (custom_vtol_plugin) StderrLine: {'line': b'  943 |       if \x1b[34m\x1b[K(\x1b[m\x1b[Kconst size_t\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[K__len\x1b[m\x1b[K = __last - __first)\n'}
+[2.201735] (custom_vtol_plugin) StderrLine: {'line': b'      |          \x1b[34m\x1b[K~\x1b[m\x1b[K            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[2.201870] (custom_vtol_plugin) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.204602] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:944:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.205062] (custom_vtol_plugin) StderrLine: {'line': b'  944 | , static_cast<unsigned char>(__tmp), \x1b[01;31m\x1b[K__len\x1b[m\x1b[K);\n'}
+[2.205430] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.205603] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.205808] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic bool std::__equal<true>::equal(const _Tp*, const _Tp*, const _Tp*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.205967] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1176:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.206158] (custom_vtol_plugin) StderrLine: {'line': b' 1176 |           if (const size_t \x1b[01;31m\x1b[K__len\x1b[m\x1b[K = (__last1 - __first1))\n'}
+[2.206369] (custom_vtol_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.208619] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1176:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.209219] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1176:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.209371] (custom_vtol_plugin) StderrLine: {'line': b' 1176 |           if \x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst size_t __len = (__last1 - __first1))\n'}
+[2.209456] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.212270] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1177:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.212725] (-) TimerEvent: {}
+[2.213094] (custom_vtol_plugin) StderrLine: {'line': b' 1177 | n !std::__memcmp(__first1, __first2, \x1b[01;31m\x1b[K__len\x1b[m\x1b[K);\n'}
+[2.213319] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.213411] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.213488] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:\x1b[m\x1b[K At global scope:\n'}
+[2.213584] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1349:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.213665] (custom_vtol_plugin) StderrLine: {'line': b' 1349 |         static \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K\n'}
+[2.213738] (custom_vtol_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.214521] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:1349:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.218328] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:33\x1b[m\x1b[K,\n'}
+[2.218526] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.218648] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.218939] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.219179] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.219356] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.219467] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.219571] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:89:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.220375] (custom_vtol_plugin) StderrLine: {'line': b'   89 |   enum class align_val_t\x1b[01;31m\x1b[K:\x1b[m\x1b[K size_t {};\n'}
+[2.220615] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.220703] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[2.220780] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:89:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kenum class std::align_val_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.220914] (custom_vtol_plugin) StderrLine: {'line': b'   89 |   enum class align_val_t: \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K {};\n'}
+[2.221038] (custom_vtol_plugin) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.221120] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:89:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.221913] (custom_vtol_plugin) StderrLine: {'line': b'   89 |   enum class align_val_t: size_t \x1b[01;31m\x1b[K{\x1b[m\x1b[K};\n'}
+[2.222077] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.222235] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:126:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.222605] (custom_vtol_plugin) StderrLine: {'line': b'  126 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new(std::size_t) _GLIBCXX_THROW (std::bad_alloc)\n'}
+[2.223844] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.223980] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:126:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.224067] (custom_vtol_plugin) StderrLine: {'line': b'  126 | ODISCARD void* operator new(std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K) _GLIBCXX_THROW (std::bad_alloc)\n'}
+[2.224157] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.224231] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.224301] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:127:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattributes after parenthesized initializer ignored [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.224388] (custom_vtol_plugin) StderrLine: {'line': b'  127 |   __attribute__((__externally_visible__)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.224461] (custom_vtol_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.224535] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:128:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new []\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.224621] (custom_vtol_plugin) StderrLine: {'line': b'  128 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new[](std::size_t) _GLIBCXX_THROW (std::bad_alloc)\n'}
+[2.229662] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.229805] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:128:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.229901] (custom_vtol_plugin) StderrLine: {'line': b'  128 | ISCARD void* operator new[](std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K) _GLIBCXX_THROW (std::bad_alloc)\n'}
+[2.229978] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.230051] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.230123] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:129:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattributes after parenthesized initializer ignored [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.230197] (custom_vtol_plugin) StderrLine: {'line': b'  129 |   __attribute__((__externally_visible__)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.230278] (custom_vtol_plugin) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.230423] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:135:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.230505] (custom_vtol_plugin) StderrLine: {'line': b'  135 | void operator delete(void*, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.230657] (custom_vtol_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.230752] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:137:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.230844] (custom_vtol_plugin) StderrLine: {'line': b'  137 | void operator delete[](void*, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.230930] (custom_vtol_plugin) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.231025] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:140:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.231934] (custom_vtol_plugin) StderrLine: {'line': b'  140 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new(std::size_t, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.235264] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.235727] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:140:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.235873] (custom_vtol_plugin) StderrLine: {'line': b'  140 | ODISCARD void* operator new(std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.237159] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.237321] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.237525] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:140:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.237662] (custom_vtol_plugin) StderrLine: {'line': b'  140 |  void* operator new(std::size_t, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.238001] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.238112] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.238279] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:142:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new []\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.238364] (custom_vtol_plugin) StderrLine: {'line': b'  142 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new[](std::size_t, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.238438] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.238509] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:142:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.238633] (custom_vtol_plugin) StderrLine: {'line': b'  142 | ISCARD void* operator new[](std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, const std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.238880] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.238990] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.239064] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:142:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.239138] (custom_vtol_plugin) StderrLine: {'line': b'  142 | oid* operator new[](std::size_t, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::nothrow_t&) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.239231] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.239316] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.239401] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:149:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.239477] (custom_vtol_plugin) StderrLine: {'line': b'  149 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new(std::size_t, std::align_val_t)\n'}
+[2.239596] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.239674] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:149:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.240122] (custom_vtol_plugin) StderrLine: {'line': b'  149 | ODISCARD void* operator new(std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, std::align_val_t)\n'}
+[2.240682] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.240770] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.240845] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:149:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.240919] (custom_vtol_plugin) StderrLine: {'line': b'  149 |  operator new(std::size_t, std::align_val_t\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.240991] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.241063] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.241171] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:150:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattributes after parenthesized initializer ignored [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.241331] (custom_vtol_plugin) StderrLine: {'line': b'  150 | visible__, __alloc_size__ (1), __malloc__)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.241410] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.241517] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.241601] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:151:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.241676] (custom_vtol_plugin) StderrLine: {'line': b'  151 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new(std::size_t, std::align_val_t, const std::nothrow_t&)\n'}
+[2.241751] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.241826] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:151:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.241901] (custom_vtol_plugin) StderrLine: {'line': b'  151 | ODISCARD void* operator new(std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, std::align_val_t, const std::nothrow_t&)\n'}
+[2.241976] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.242059] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.242132] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:151:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.242207] (custom_vtol_plugin) StderrLine: {'line': b'  151 | new(std::size_t, std::align_val_t\x1b[01;31m\x1b[K,\x1b[m\x1b[K const std::nothrow_t&)\n'}
+[2.242281] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.242366] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.243232] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:151:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.243965] (custom_vtol_plugin) StderrLine: {'line': b'  151 | w(std::size_t, std::align_val_t, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::nothrow_t&)\n'}
+[2.245895] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.246077] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.246305] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:157:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new []\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.246525] (custom_vtol_plugin) StderrLine: {'line': b'  157 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new[](std::size_t, std::align_val_t)\n'}
+[2.246935] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.247122] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:157:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.247409] (custom_vtol_plugin) StderrLine: {'line': b'  157 | ISCARD void* operator new[](std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, std::align_val_t)\n'}
+[2.247610] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.247815] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.248002] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:157:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.249511] (custom_vtol_plugin) StderrLine: {'line': b'  157 | perator new[](std::size_t, std::align_val_t\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.249677] (custom_vtol_plugin) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.249811] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.250010] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:158:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattributes after parenthesized initializer ignored [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.250344] (custom_vtol_plugin) StderrLine: {'line': b'  158 | visible__, __alloc_size__ (1), __malloc__)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.250468] (custom_vtol_plugin) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.250552] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.250666] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:159:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new []\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.250780] (custom_vtol_plugin) StderrLine: {'line': b'  159 | _GLIBCXX_NODISCARD void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new[](std::size_t, std::align_val_t, const std::nothrow_t&)\n'}
+[2.250889] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.250978] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:159:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.251102] (custom_vtol_plugin) StderrLine: {'line': b'  159 | ISCARD void* operator new[](std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, std::align_val_t, const std::nothrow_t&)\n'}
+[2.251647] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.251758] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.253039] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:159:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.253155] (custom_vtol_plugin) StderrLine: {'line': b'  159 | w[](std::size_t, std::align_val_t\x1b[01;31m\x1b[K,\x1b[m\x1b[K const std::nothrow_t&)\n'}
+[2.253306] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.253390] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.253480] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:159:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.253923] (custom_vtol_plugin) StderrLine: {'line': b'  159 | ](std::size_t, std::align_val_t, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::nothrow_t&)\n'}
+[2.254012] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.254088] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.254195] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:166:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.254523] (custom_vtol_plugin) StderrLine: {'line': b'  166 | void operator delete(void*, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t, std::align_val_t)\n'}
+[2.254609] (custom_vtol_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.254704] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:168:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::size_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.254858] (custom_vtol_plugin) StderrLine: {'line': b'  168 | void operator delete[](void*, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::size_t, std::align_val_t)\n'}
+[2.254940] (custom_vtol_plugin) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.255014] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:174:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.255089] (custom_vtol_plugin) StderrLine: {'line': b'  174 | _GLIBCXX_NODISCARD inline void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new(std::size_t, void* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.255202] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.255279] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:174:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.255356] (custom_vtol_plugin) StderrLine: {'line': b'  174 | D inline void* operator new(std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, void* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.256055] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.256243] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.256347] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:174:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.256785] (custom_vtol_plugin) StderrLine: {'line': b'  174 |  void* operator new(std::size_t, \x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.256903] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.256994] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.257068] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:176:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Koperator new []\x1b[m\x1b[K\xe2\x80\x99 as non-function\n'}
+[2.257707] (custom_vtol_plugin) StderrLine: {'line': b'  176 | _GLIBCXX_NODISCARD inline void* \x1b[01;31m\x1b[Koperator\x1b[m\x1b[K new[](std::size_t, void* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.257836] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.257918] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:176:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.257997] (custom_vtol_plugin) StderrLine: {'line': b'  176 | inline void* operator new[](std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K, void* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.259063] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.259221] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.259309] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/new:176:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.259389] (custom_vtol_plugin) StderrLine: {'line': b'  176 | oid* operator new[](std::size_t, \x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K* __p) _GLIBCXX_USE_NOEXCEPT\n'}
+[2.259467] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.259542] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.259617] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.259692] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.259767] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.259842] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.259915] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.259987] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.261839] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:59:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.261984] (custom_vtol_plugin) StderrLine: {'line': b'   59 |       typedef std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K     size_type;\n'}
+[2.262115] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.262195] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:60:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.263596] (custom_vtol_plugin) StderrLine: {'line': b'   60 |       typedef std::\x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K  difference_type;\n'}
+[2.263744] (custom_vtol_plugin) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.263828] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:103:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.263907] (custom_vtol_plugin) StderrLine: {'line': b'  103 |       allocate(\x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __n, const void* = static_cast<const void*>(0))\n'}
+[2.264022] (custom_vtol_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.264822] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:132:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.264967] (custom_vtol_plugin) StderrLine: {'line': b'  132 |       deallocate(_Tp* __p, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __t __attribute__ ((__unused__)))\n'}
+[2.265049] (custom_vtol_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.265125] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:153:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.265243] (custom_vtol_plugin) StderrLine: {'line': b'  153 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.265339] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.265411] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:196:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.265496] (custom_vtol_plugin) StderrLine: {'line': b'  196 |       _GLIBCXX_CONSTEXPR \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.265569] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.265641] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[K_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(int, const void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.265715] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:115:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.265787] (custom_vtol_plugin) StderrLine: {'line': b'  115 |             if (__n > (std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K(-1) / sizeof(_Tp)))\n'}
+[2.265859] (custom_vtol_plugin) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.265976] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.266050] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.266152] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.266265] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.266357] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:\x1b[m\x1b[K At global scope:\n'}
+[2.266510] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:76:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.266630] (custom_vtol_plugin) StderrLine: {'line': b'   76 |       typedef \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K      size_type;\n'}
+[2.266740] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.266814] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:48:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.266928] (custom_vtol_plugin) StderrLine: {'line': b'   47 | #include <bits/memoryfwd.h>\n'}
+[2.267004] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.267086] (custom_vtol_plugin) StderrLine: {'line': b'   48 | #if __cplusplus >= 201103L\n'}
+[2.267187] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:77:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.267893] (custom_vtol_plugin) StderrLine: {'line': b'   77 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K   difference_type;\n'}
+[2.268932] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.269423] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:77:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.269533] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:128:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.269618] (custom_vtol_plugin) StderrLine: {'line': b'  128 |       typedef \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K     size_type;\n'}
+[2.269696] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.269816] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:128:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.269914] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:129:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.269989] (custom_vtol_plugin) StderrLine: {'line': b'  129 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K  difference_type;\n'}
+[2.270063] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.270135] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:129:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.270210] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ext/alloc_traits.h:34\x1b[m\x1b[K,\n'}
+[2.270282] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:64\x1b[m\x1b[K,\n'}
+[2.270359] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:66\x1b[m\x1b[K,\n'}
+[2.270517] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.270600] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.270676] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.270781] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:432:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.270886] (custom_vtol_plugin) StderrLine: {'line': b'  432 |      using difference_type = std::\x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K;\n'}
+[2.271404] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.271488] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.271567] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:435:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.271696] (custom_vtol_plugin) StderrLine: {'line': b'  435 |       using size_type = std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K;\n'}
+[2.271876] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.271960] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:463:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.272036] (custom_vtol_plugin) StderrLine: {'line': b'  463 |    allocate(allocator_type& __a, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __n)\n'}
+[2.272116] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.272547] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.272648] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:477:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.273199] (custom_vtol_plugin) StderrLine: {'line': b'  477 |    allocate(allocator_type& __a, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __n, const_void_pointer __hint)\n'}
+[2.273324] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.273438] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.273516] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:495:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.273908] (custom_vtol_plugin) StderrLine: {'line': b'  495 | llocator_type& __a, pointer __p, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __n)\n'}
+[2.274211] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.274364] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.274443] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:546:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.274520] (custom_vtol_plugin) StderrLine: {'line': b'  546 |       static _GLIBCXX20_CONSTEXPR \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.274593] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.275239] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.275436] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:589:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.275579] (custom_vtol_plugin) StderrLine: {'line': b'  589 |      using difference_type = std::\x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K;\n'}
+[2.275711] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.275808] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.276414] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:592:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.276546] (custom_vtol_plugin) StderrLine: {'line': b'  592 |       using size_type = std::\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K;\n'}
+[2.276679] (custom_vtol_plugin) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.276759] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:614:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.276836] (custom_vtol_plugin) StderrLine: {'line': b'  614 |       allocate(allocator_type&, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K, const void* = nullptr) = delete;\n'}
+[2.276910] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.276988] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:618:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.277148] (custom_vtol_plugin) StderrLine: {'line': b'  618 | allocate(allocator_type&, void*, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K) = delete;\n'}
+[2.277238] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.277311] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.277384] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:651:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.277459] (custom_vtol_plugin) StderrLine: {'line': b'  651 |       static \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.277537] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.278142] (custom_vtol_plugin) StderrLine: {'line': b'      |              \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.278262] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:803:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.278353] (custom_vtol_plugin) StderrLine: {'line': b'  803 | std::declval<_Alloc&>().allocate(\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K{}))>>\n'}
+[2.278437] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.278518] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.280702] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.280931] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.281042] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // Allocator traits -*- C++ -*-\n'}
+[2.281149] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:803:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.281354] (custom_vtol_plugin) StderrLine: {'line': b'  803 | std::declval<_Alloc&>().allocate(\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K{}))>>\n'}
+[2.281862] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.281950] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.282028] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:803:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.282120] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:66\x1b[m\x1b[K,\n'}
+[2.282251] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.283047] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.283134] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.283222] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::__enable_if_t<std::__is_bitwise_relocatable<_Tp>::value, _Tp*> std::__relocate_a_1(_Tp*, _Tp*, _Tp*, std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.283307] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:1009:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.284256] (custom_vtol_plugin) StderrLine: {'line': b' 1009 |       \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K __count = __last - __first;\n'}
+[2.284679] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.284793] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:65:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.284911] (custom_vtol_plugin) StderrLine: {'line': b'   64 | #include <ext/alloc_traits.h>     // __alloc_traits\n'}
+[2.284991] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.285087] (custom_vtol_plugin) StderrLine: {'line': b'   65 | \n'}
+[2.285218] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:1010:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[K__count_if\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.285343] (custom_vtol_plugin) StderrLine: {'line': b' 1010 |       if (\x1b[01;31m\x1b[K__count\x1b[m\x1b[K > 0)\n'}
+[2.285579] (custom_vtol_plugin) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.285673] (custom_vtol_plugin) StderrLine: {'line': b'      |           \x1b[32m\x1b[K__count_if\x1b[m\x1b[K\n'}
+[2.285756] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_uninitialized.h:1012:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[K__count_if\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.285844] (custom_vtol_plugin) StderrLine: {'line': b' 1012 |       return __result + \x1b[01;31m\x1b[K__count\x1b[m\x1b[K;\n'}
+[2.285929] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.286012] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K__count_if\x1b[m\x1b[K\n'}
+[2.286796] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:67\x1b[m\x1b[K,\n'}
+[2.286940] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.287033] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.287119] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.287204] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:\x1b[m\x1b[K At global scope:\n'}
+[2.287284] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:71:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.288375] (custom_vtol_plugin) StderrLine: {'line': b'   71 |                                 \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __len __attribute__((__unused__)))\n'}
+[2.288521] (custom_vtol_plugin) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.288624] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:99:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.288726] (custom_vtol_plugin) StderrLine: {'line': b'   99 |     pair<_Tp*, \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K>\n'}
+[2.288822] (custom_vtol_plugin) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.288904] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.289015] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.289110] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // Temporary buffer implementation -*- C++ -*-\n'}
+[2.289390] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:99:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.289533] (custom_vtol_plugin) StderrLine: {'line': b'   99 |     pair<_Tp*, ptrdiff_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[2.289719] (custom_vtol_plugin) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.289852] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:100:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.289946] (custom_vtol_plugin) StderrLine: {'line': b'  100 |     get_temporary_buffer(\x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K __len) _GLIBCXX_NOEXCEPT\n'}
+[2.290043] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290134] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:100:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.291792] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:100:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knoexcept\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291987] (custom_vtol_plugin) StderrLine: {'line': b'  100 | temporary_buffer(ptrdiff_t __len)\x1b[01;31m\x1b[K \x1b[m\x1b[K_GLIBCXX_NOEXCEPT\n'}
+[2.292086] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.292163] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.292288] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:145:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.292400] (custom_vtol_plugin) StderrLine: {'line': b'  145 |       typedef \x1b[01;31m\x1b[Kptrdiff_t\x1b[m\x1b[K   size_type;\n'}
+[2.292506] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.292583] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:145:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kptrdiff_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.292660] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:148:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.292758] (custom_vtol_plugin) StderrLine: {'line': b'  148 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K  _M_original_len;\n'}
+[2.296018] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296286] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.296382] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:149:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.296479] (custom_vtol_plugin) StderrLine: {'line': b'  149 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K  _M_len;\n'}
+[2.296555] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296628] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.296701] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:154:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.296777] (custom_vtol_plugin) StderrLine: {'line': b'  154 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.296849] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.296919] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.296991] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:159:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.297064] (custom_vtol_plugin) StderrLine: {'line': b'  159 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.297177] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.297255] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.297336] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:177:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.297411] (custom_vtol_plugin) StderrLine: {'line': b'  177 | _buffer(_ForwardIterator __seed, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __original_len);\n'}
+[2.297484] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.297558] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.300568] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::_Temporary_buffer<_ForwardIterator, _Tp>::value_type* std::_Temporary_buffer<_ForwardIterator, _Tp>::end()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.300807] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:171:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_M_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.300937] (custom_vtol_plugin) StderrLine: {'line': b'  171 |       { return _M_buffer + \x1b[01;31m\x1b[K_M_len\x1b[m\x1b[K; }\n'}
+[2.301579] (custom_vtol_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.305856] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:\x1b[m\x1b[K In destructor \xe2\x80\x98\x1b[01m\x1b[Kstd::_Temporary_buffer<_ForwardIterator, _Tp>::~_Temporary_buffer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.306089] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:181:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_M_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.306188] (custom_vtol_plugin) StderrLine: {'line': b'  181 | td::_Destroy(_M_buffer, _M_buffer + \x1b[01;31m\x1b[K_M_len\x1b[m\x1b[K);\n'}
+[2.307100] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.307269] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.308695] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:\x1b[m\x1b[K At global scope:\n'}
+[2.308875] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:258:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.308973] (custom_vtol_plugin) StderrLine: {'line': b'  258 | _buffer(_ForwardIterator __seed, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __original_len)\n'}
+[2.309054] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309419] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.309531] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kstd::_Temporary_buffer<_ForwardIterator, _Tp>::_Temporary_buffer(_ForwardIterator, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.309613] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:259:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kstd::_Temporary_buffer<_ForwardIterator, _Tp>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[K_M_original_len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.309704] (custom_vtol_plugin) StderrLine: {'line': b'  259 |     : \x1b[01;31m\x1b[K_M_original_len\x1b[m\x1b[K(__original_len), _M_len(0), _M_buffer(0)\n'}
+[2.309780] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309894] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:259:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kstd::_Temporary_buffer<_ForwardIterator, _Tp>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[K_M_len\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.309979] (custom_vtol_plugin) StderrLine: {'line': b'  259 | _M_original_len(__original_len), \x1b[01;31m\x1b[K_M_len\x1b[m\x1b[K(0), _M_buffer(0)\n'}
+[2.310060] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.310137] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.311920] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:261:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.312078] (custom_vtol_plugin) StderrLine: {'line': b'  261 |       std::pair<pointer, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K> __p(\n'}
+[2.312165] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.312243] (custom_vtol_plugin) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.312390] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:261:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.312958] (-) TimerEvent: {}
+[2.313274] (custom_vtol_plugin) StderrLine: {'line': b'  261 |       std::pair<pointer, size_type\x1b[01;31m\x1b[K>\x1b[m\x1b[K __p(\n'}
+[2.313442] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.323911] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:262:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_M_original_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[K__original_len\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.324191] (custom_vtol_plugin) StderrLine: {'line': b'  262 | get_temporary_buffer<value_type>(\x1b[01;31m\x1b[K_M_original_len\x1b[m\x1b[K));\n'}
+[2.324341] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.324421] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K__original_len\x1b[m\x1b[K\n'}
+[2.324556] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:264:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfirst\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.324645] (custom_vtol_plugin) StderrLine: {'line': b'  264 |       if (__p.\x1b[01;31m\x1b[Kfirst\x1b[m\x1b[K)\n'}
+[2.324720] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.324793] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:268:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfirst\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.324869] (custom_vtol_plugin) StderrLine: {'line': b'  268 | _uninitialized_construct_buf(__p.\x1b[01;31m\x1b[Kfirst\x1b[m\x1b[K, __p.first + __p.second,\n'}
+[2.324944] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.325017] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.325089] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:268:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfirst\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.325183] (custom_vtol_plugin) StderrLine: {'line': b'  268 | zed_construct_buf(__p.first, __p.\x1b[01;31m\x1b[Kfirst\x1b[m\x1b[K + __p.second,\n'}
+[2.325260] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.325450] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.325563] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:268:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksecond\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.325691] (custom_vtol_plugin) StderrLine: {'line': b'  268 | truct_buf(__p.first, __p.first + __p.\x1b[01;31m\x1b[Ksecond\x1b[m\x1b[K,\n'}
+[2.325776] (custom_vtol_plugin) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.325849] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.327550] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:270:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfirst\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.327792] (custom_vtol_plugin) StderrLine: {'line': b'  270 |               _M_buffer = __p.\x1b[01;31m\x1b[Kfirst\x1b[m\x1b[K;\n'}
+[2.327875] (custom_vtol_plugin) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.329463] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:271:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_M_len\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.329622] (custom_vtol_plugin) StderrLine: {'line': b'  271 |               \x1b[01;31m\x1b[K_M_len\x1b[m\x1b[K = __p.second;\n'}
+[2.329707] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.329783] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:271:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksecond\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.329859] (custom_vtol_plugin) StderrLine: {'line': b'  271 |               _M_len = __p.\x1b[01;31m\x1b[Ksecond\x1b[m\x1b[K;\n'}
+[2.329936] (custom_vtol_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.330012] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:275:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kfirst\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.330094] (custom_vtol_plugin) StderrLine: {'line': b'  275 | l::__return_temporary_buffer(__p.\x1b[01;31m\x1b[Kfirst\x1b[m\x1b[K, __p.second);\n'}
+[2.330224] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.330369] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.330446] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_tempbuf.h:275:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ksecond\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K__p\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.330586] (custom_vtol_plugin) StderrLine: {'line': b'  275 | urn_temporary_buffer(__p.first, __p.\x1b[01;31m\x1b[Ksecond\x1b[m\x1b[K);\n'}
+[2.330660] (custom_vtol_plugin) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.330740] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.336598] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:72\x1b[m\x1b[K,\n'}
+[2.336975] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.337608] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.337704] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.337783] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:\x1b[m\x1b[K At global scope:\n'}
+[2.337857] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.337937] (custom_vtol_plugin) StderrLine: {'line': b'   62 | align(\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __align, size_t __size, void*& __ptr, size_t& __space) noexcept\n'}
+[2.338014] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.338133] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.338881] (custom_vtol_plugin) StderrLine: {'line': b'   35 | #include <bit>          // std::has_single_bit\n'}
+[2.338986] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.339136] (custom_vtol_plugin) StderrLine: {'line': b'   36 | #include <stdint.h>     // uintptr_t\n'}
+[2.339292] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.339375] (custom_vtol_plugin) StderrLine: {'line': b'   62 | align(size_t __align, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K __size, void*& __ptr, size_t& __space) noexcept\n'}
+[2.339446] (custom_vtol_plugin) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.340823] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.340937] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.341055] (custom_vtol_plugin) StderrLine: {'line': b'   62 | n(size_t __align, size_t __size, \x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K*& __ptr, size_t& __space) noexcept\n'}
+[2.341160] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.341234] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.341305] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.341390] (custom_vtol_plugin) StderrLine: {'line': b'   62 | gn, size_t __size, void*& __ptr, \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K& __space) noexcept\n'}
+[2.341704] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.341827] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.341910] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.342022] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__space\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.342116] (custom_vtol_plugin) StderrLine: {'line': b'   62 | _t __size, void*& __ptr, size_t& \x1b[01;31m\x1b[K__space\x1b[m\x1b[K) noexcept\n'}
+[2.342858] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.343710] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.344399] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/align.h:62:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.344505] (custom_vtol_plugin) StderrLine: {'line': b'   62 | ize, void*& __ptr, size_t& __space\x1b[01;31m\x1b[K)\x1b[m\x1b[K noexcept\n'}
+[2.344582] (custom_vtol_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.344654] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.344725] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[2.344795] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[2.344867] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[2.344986] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.345069] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.345177] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.345713] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:53:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.345828] (custom_vtol_plugin) StderrLine: {'line': b'   53 |       typedef \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K            size_type;\n'}
+[2.345990] (custom_vtol_plugin) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.346111] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[2.346737] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[2.348009] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[2.348118] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.348219] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.348303] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.348383] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.348475] (custom_vtol_plugin) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[2.349029] (custom_vtol_plugin) StderrLine: {'line': b'    1 | // std::initializer_list support -*- C++ -*-\n'}
+[2.349120] (custom_vtol_plugin) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[2.349206] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[2.349293] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[2.349424] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/msgs10/gz/msgs/serialized.pb.h:8\x1b[m\x1b[K,\n'}
+[2.349499] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gz/sim8/gz/sim/EntityComponentManager.hh:20\x1b[m\x1b[K,\n'}
+[2.349583] (custom_vtol_plugin) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parsa/ws_ros2/src/custom_vtol_plugin/src/motor_controller_plugin.cpp:9\x1b[m\x1b[K:\n'}
+[2.349657] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:59:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.349731] (custom_vtol_plugin) StderrLine: {'line': b'   59 |       \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K                 _M_len;\n'}
+[2.349801] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.350199] (custom_vtol_plugin) StderrLine: {'line': b'      |       \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.351449] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:62:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.351662] (custom_vtol_plugin) StderrLine: {'line': b'   62 | ializer_list(const_iterator __a, \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K __l)\n'}
+[2.351743] (custom_vtol_plugin) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.352294] (custom_vtol_plugin) StderrLine: {'line': b'\n'}
+[2.353543] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:70:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrue_type\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.353696] (custom_vtol_plugin) StderrLine: {'line': b'   70 |       constexpr \x1b[01;31m\x1b[Ksize_type\x1b[m\x1b[K\n'}
+[2.353826] (custom_vtol_plugin) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.353905] (custom_vtol_plugin) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ktrue_type\x1b[m\x1b[K\n'}
+[2.353979] (custom_vtol_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:47:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kdefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass std::initializer_list<_E>\x1b[m\x1b[K\xe2\x80\x99 does not match \xe2\x80\x98\x1b[01m\x1b[K#include <initializer_list>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.354073] (custom_vtol_plugin) StderrLine: {'line': b'   47 |     class \x1b[01;31m\x1b[Kinitializer_list\x1b[m\x1b[K\n'}
+[2.354145] (custom_vtol_plugin) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.354225] (custom_vtol_plugin) StderrLine: {'line': b'compilation terminated.\n'}
+[2.365273] (custom_vtol_plugin) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/motor_controller_plugin.dir/build.make:76: CMakeFiles/motor_controller_plugin.dir/src/motor_controller_plugin.cpp.o] Error 1\n'}
+[2.366128] (custom_vtol_plugin) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/motor_controller_plugin.dir/all] Error 2\n'}
+[2.367103] (custom_vtol_plugin) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.375734] (custom_vtol_plugin) CommandEnded: {'returncode': 2}
+[2.413653] (-) TimerEvent: {}
+[2.418368] (custom_vtol_plugin) JobEnded: {'identifier': 'custom_vtol_plugin', 'rc': 2}
+[2.429589] (-) EventReactorShutdown: {}

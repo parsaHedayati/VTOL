@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fb8e75053084dba9372d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "custom_vtol_plugin__py",
+					"jsonFile" : "directory-custom_vtol_plugin__py-e2466575968b515b59f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/parsa/ws_ros2/build/custom_vtol_plugin/custom_vtol_plugin__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "custom_vtol_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_custom_vtol_plugin_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_custom_vtol_plugin_egg-59a12e56cdff8b105802.json",
+					"name" : "ament_cmake_python_build_custom_vtol_plugin_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_custom_vtol_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_custom_vtol_plugin-8c527fe394fd968b6856.json",
+					"name" : "ament_cmake_python_copy_custom_vtol_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin-4efcb976457911d72522.json",
+					"name" : "custom_vtol_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__cpp-4e7dccd2f9a1ac683ef4.json",
+					"name" : "custom_vtol_plugin__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "custom_vtol_plugin__py::@b261079a3581f0870193",
+					"jsonFile" : "target-custom_vtol_plugin__py-ba12c2d5b7114cb23822.json",
+					"name" : "custom_vtol_plugin__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_generator_c-97628a038ae7e603c9aa.json",
+					"name" : "custom_vtol_plugin__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_generator_py-384b5b801038fa6797c0.json",
+					"name" : "custom_vtol_plugin__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_c-ab3b1f55b96b53be5fe6.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_c__pyext-91e4e8cd35e34588e6ed.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_cpp-00db9e1924e0fc8b503a.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_fastrtps_c-af055e6577577418e6b1.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext-ac41336e340ff486e8c3.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp-990dc735561482ef716a.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_introspection_c-a5dc37207e372f285be8.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext-b45cc38f884aa6dd2c9c.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin__rosidl_typesupport_introspection_cpp-b6f5c897467536dba4e4.json",
+					"name" : "custom_vtol_plugin__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_vtol_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_vtol_plugin_uninstall-41c6da0c09e6db8c78c6.json",
+					"name" : "custom_vtol_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_controller_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_controller_plugin-9246b916810b225fad5c.json",
+					"name" : "motor_controller_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca7a99e32c58f41d2db2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parsa/ws_ros2/build/custom_vtol_plugin",
+		"source" : "/home/parsa/ws_ros2/src/custom_vtol_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
