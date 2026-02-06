@@ -40,8 +40,8 @@ Not yet implemented:
 - Navigation and state estimation tuning
 - Real flight data validation
 
-## Project Structure
-VTOL  /
+## Project Structure 
+VTOL  \
 ├── src/ # Source code and integration logic\
 ├── scripts/ # Helper scripts\
 ├── CMakeLists.txt\
