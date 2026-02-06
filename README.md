@@ -41,7 +41,7 @@ Not yet implemented:
 - Real flight data validation
 
 ## Project Structure
-VTOL/
+VTOL  /
 ├── src/ # Source code and integration logic\
 ├── scripts/ # Helper scripts\
 ├── CMakeLists.txt\
