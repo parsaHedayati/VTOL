@@ -39,12 +39,14 @@ Not yet implemented:
 - Advanced control tuning
 - Navigation and state estimation tuning
 - Real flight data validation
+
+## Project Structure
+VTOL/
 ├── src/ # Source code and integration logic
 ├── scripts/ # Helper scripts
 ├── CMakeLists.txt
 ├── Makefile
 └── README.md
-(Structure may evolve as the project progresses.)
 
 ---
 
@@ -72,4 +74,3 @@ Electrical Engineering / Robotics
 
 ---
 
-## Project Structure
