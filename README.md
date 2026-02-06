@@ -42,11 +42,11 @@ Not yet implemented:
 
 ## Project Structure
 VTOL/
-├── src/ # Source code and integration logic
-├── scripts/ # Helper scripts
-├── CMakeLists.txt
-├── Makefile
-└── README.md
+├── src/ # Source code and integration logic/
+├── scripts/ # Helper scripts/
+├── CMakeLists.txt/
+├── Makefile/
+└── README.md/
 
 ---
 
