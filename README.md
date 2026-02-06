@@ -46,7 +46,7 @@ VTOL  \
 ├── scripts/ # Helper scripts\
 ├── CMakeLists.txt\
 ├── Makefile\
-└── README.md\
+└── README.md
 
 ---
 
